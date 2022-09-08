@@ -13,6 +13,9 @@ developers:
     url: https://orcid.org/0000-0002-3716-7344
 vendors: []
 amplicon_size: 2500
+reference:
+  url: https://github.com/pha4ge/primer-schemes/sars-cov-2/eden/v1/eden-v1.reference.fasta
+  checksum: 105c82802b67521950854a851fc6eefd 
 bed:
   url: https://github.com/pha4ge/primer-schemes/sars-cov-2/eden/v1/eden-v1.scheme.bed
   checksum: 4a9cc7082d23d32b30e0a8fc238aa8a8
