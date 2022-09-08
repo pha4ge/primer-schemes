@@ -1,0 +1,24 @@
+name: eden
+version: 1
+derived_from:
+organism: SARS-CoV-2
+organism_aliases:
+  - nCoV-2019
+aliases:
+  - Eden/V1
+developers:
+  - name: John-Sebastian Eden
+    url: https://orcid.org/0000-0003-1374-3551
+  - name: Eby Sim
+    url: https://orcid.org/0000-0002-3716-7344
+vendors: []
+amplicon_size: 2500
+bed:
+  url: https://github.com/pha4ge/primer-schemes/sars-cov-2/eden/v1/eden-v1.scheme.bed
+  checksum: 4a9cc7082d23d32b30e0a8fc238aa8a8
+upstream_bed:
+  url: https://github.com/Psy-Fer/SARS-CoV-2_GTG/blob/master/protocols/Eden/schemes/nCoV-2019/V1/nCoV-2019.scheme.bed
+  checksum: 4a9cc7082d23d32b30e0a8fc238aa8a8
+citation: https://www.protocols.io/view/sars-cov-2-genome-sequencing-using-long-pooled-amp-kxygxeob4v8j/v1
+notes:
+schema_version: 1.0.0
