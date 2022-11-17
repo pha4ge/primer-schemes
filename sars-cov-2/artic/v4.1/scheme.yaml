@@ -1,0 +1,20 @@
+schema_version: 1-0-0
+name: artic-v4.1
+organism: SARS-CoV-2
+organism_aliases:
+  - nCoV-2019
+aliases:
+  - ARTIC/V4.1
+developers:
+  - name: ARTIC network
+    url: https://artic.network/
+vendors:
+  - name: IDT
+    url: https://eu.idtdna.com/pages
+    kit_name: "10011442"
+  - name: Eurofins
+    url: https://eurofinsgenomics.com
+amplicon_size: 400
+repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
+citation: ""
+derived_from:  https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4
