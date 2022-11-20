@@ -4,8 +4,11 @@ organism: MPXV
 developers:
 - name: Chantal B.F. Vogels
   url: https://ysph.yale.edu/profile/chantal-vogels/
+vendors:
+  - name: IDT
+    kit_name: "Yale hMPXV Amplicon Panel"
 amplicon_size: 2000
-repository_url: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/chen/v3
+repository_url: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v3
 citations:
 - https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o/v3
 primer_checksum: primaschema:5b62a5f7db121f8b2cf53176dd476b3f96585c22586d68a7f19ba54e43ef6200
