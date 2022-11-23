@@ -2,14 +2,16 @@ schema_version: 1-0-0
 name: midnight-bccdc-v3
 organism: SARS-CoV-2
 organism_aliases:
-  - nCoV-2019
+- nCoV-2019
 derived_from: midnight-bccdc-v2
 developers:
-  - name: Nikki Freed
-  - name: Olin Silander
-  - name: John Tyson
-  - name: Tracy Lee
+- name: Nikki Freed
+- name: Olin Silander
+- name: John Tyson
+- name: Tracy Lee
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v3
 citations:
-  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+primer_checksum: primaschema:5dded9fc9bc0fabf11c4269afd7b6c3d24c704887e2a01de9ad8e565c38c40a8
+reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca

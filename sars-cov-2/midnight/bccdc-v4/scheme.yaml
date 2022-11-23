@@ -1,21 +1,23 @@
 schema_version: 1-0-0
 name: midnight-bccdc-v4
 aliases:
-  - midnight-idt-v2
+- midnight-idt-v2
 organism: SARS-CoV-2
 organism_aliases:
-  - nCoV-2019
+- nCoV-2019
 derived_from: midnight-bccdc-v3
 developers:
-  - name: Nikki Freed
-  - name: Olin Silander
-  - name: John Tyson
-  - name: Tracy Lee
+- name: Nikki Freed
+- name: Olin Silander
+- name: John Tyson
+- name: Tracy Lee
 vendors:
-  - name: Integrated DNA Technologies
-    url: https://eu.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-amplicon-sequencing/predesigned-amplicon-panels/sars-cov-2-midnight-amp-panel#product-details
-    kit_name: "10011644"
+- name: Integrated DNA Technologies
+  url: https://eu.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-amplicon-sequencing/predesigned-amplicon-panels/sars-cov-2-midnight-amp-panel#product-details
+  kit_name: '10011644'
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
 citations:
-  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+primer_checksum: primaschema:d03f3757d7d38db4bfcd86752159eeb36b25d042b4e2d70d77e64143e10e786e
+reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca

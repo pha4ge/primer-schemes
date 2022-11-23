@@ -1,22 +1,24 @@
 schema_version: 1-0-0
 name: midnight-ont-v3
 aliases:
-  - midnight-v3
+- midnight-v3
 organism: SARS-CoV-2
 organism_aliases:
-  - nCoV-2019
+- nCoV-2019
 derived_from: midnight-v2
 developers:
-  - name: Nikki Freed
-  - name: Olin Silander
-  - name: Oxford Nanopore Technologies
+- name: Nikki Freed
+- name: Olin Silander
+- name: Oxford Nanopore Technologies
 vendors:
-  - name: Oxford Nanopore Technologies
-    url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
-    kit_name: "MRT001.30"
+- name: Oxford Nanopore Technologies
+  url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
+  kit_name: MRT001.30
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3
 citations:
-  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 notes:
-  - Accomodates Omicron BA.2
+- Accomodates Omicron BA.2
+primer_checksum: primaschema:5b6f7cd422582a85617a0a122dc8fa95ead216fa04621b7eda1b370f9fca13e5
+reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
