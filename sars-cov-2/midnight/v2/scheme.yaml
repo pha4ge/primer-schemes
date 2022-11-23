@@ -1,0 +1,19 @@
+schema_version: 1-0-0
+name: midnight-v2
+organism: SARS-CoV-2
+organism_aliases:
+  - nCoV-2019
+aliases:
+  - midnight-ont-v2
+developers:
+  - name: Nikki Freed
+  - name: Olin Silander
+vendors:
+  - name: Oxford Nanopore Technologies
+    url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
+    kit_name: "MRT001.20"
+  - name: Integrated DNA Technologies
+amplicon_size: 1200
+repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
+citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
