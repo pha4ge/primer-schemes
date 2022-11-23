@@ -5,6 +5,7 @@ organism_aliases:
   - nCoV-2019
 aliases:
   - midnight-ont-v2
+derived_from: midnight-v1
 developers:
   - name: Nikki Freed
   - name: Olin Silander
@@ -17,3 +18,5 @@ amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
 citations:
   - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+notes:
+  - Accomodates Omicron BA.1

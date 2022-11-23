@@ -6,6 +6,7 @@ organism_aliases:
 aliases:
   - midnight-ont-v1
   - V1200
+  - idt-v1
 developers:
   - name: Nikki Freed
   - name: Olin Silander

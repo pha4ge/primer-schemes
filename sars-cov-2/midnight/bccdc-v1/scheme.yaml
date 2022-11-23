@@ -1,0 +1,17 @@
+schema_version: 1-0-0
+name: midnight-bccdc-v1
+organism: SARS-CoV-2
+organism_aliases:
+  - nCoV-2019
+derived_from: midnight-v1
+developers:
+  - name: Nikki Freed
+  - name: Olin Silander
+  - name: John Tyson
+  - name: Tracy Lee
+amplicon_size: 1200
+repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v1
+citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+notes:
+  - Accomodates P.1
