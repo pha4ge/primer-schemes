@@ -15,6 +15,7 @@ amplicon_size: 2500
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
 citations:
   - https://www.protocols.io/view/sars-cov-2-genome-sequencing-using-long-pooled-amp-kxygxeob4v8j/v1
-notes: Protocol includes addendum for ONT sequencing
+notes: 
+  - Protocol includes addendum for ONT sequencing
 primer_checksum: "primaschema:9e4c6a3b84cbd76cb3e38b893d0322b5799ecafe28d8cf7bf347ce6dcc5ee8cb"
 reference_checksum: "primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca"
