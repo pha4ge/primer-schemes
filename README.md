@@ -16,14 +16,15 @@ Use [Primaschema](https://github.com/pha4ge/primaschema) to build primer scheme 
 - **`eden-v1`** 
 - **`midnight-v1`**
 - **`midnight-v2`**
-- **`midnight-idt-v2`**
 - **`midnight-ont-v3`**
-
-
+- **`midnight-bccdc-v1`**
+- **`midnight-bccdc-v2`**
+- **`midnight-bccdc-v3`**
+- **`midnight-bccdc-v4`**
 
 ### MPXV
 
-- Yale V3 **`yale-v3`**
+- **`yale-v3`**
 
 
 
