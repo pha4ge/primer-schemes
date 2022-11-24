@@ -1,10 +1,10 @@
 # Primer-schemes
 
-A collection of primer scheme definitions for sequencing viral pathogens. A definition minimally comprises a reference sequence (`reference.fasta`), YAML metadata (`scheme.yaml`), and a Primal Scheme-like BED file describing primer sequences and their positions in reference coordinates (`primer.bed`). Each scheme is assigned an identifier consisting of the scheme family and version, e.g. `artic-v4.1`, `midnight-v2`. Checksums of primer and reference sequence composition are generated at build time and added to `scheme.yaml`.
+A collection of primer scheme definitions for sequencing viral pathogens. A definition minimally comprises a reference sequence (`reference.fasta`), YAML metadata (`info.yaml`), and a Primal Scheme-like BED file describing primer sequences and their positions in reference coordinates (`primer.bed`). Each scheme is assigned an identifier consisting of the scheme family and version, e.g. `artic-v4.1`, `midnight-v2`. Checksums of primer and reference sequence composition are generated at build time and added to `scheme.yaml`.
 
-Use [Primaschema](https://github.com/pha4ge/primaschema) to build primer scheme bundles from a `scheme.yaml`, `reference.fasta` and either `primer.bed` (7 column format) or `scheme.bed` (6 column format).
+Use [Primaschema](https://github.com/pha4ge/primaschema) to build primer scheme bundles from a `info.yaml`, `reference.fasta` and either 7 column`primer.bed` (7 column format) or `scheme.bed` (6 column format).
 
-*The schema definition format has not been finalised and should be considered unstable until initial release. Thereafter the `schema_definition` will be incremented by any further changes.*
+*The schema definition format has not been finalised and should be considered unstable until initial release. Thereafter the `schema_version` will be incremented by any further changes.*
 
 
 
