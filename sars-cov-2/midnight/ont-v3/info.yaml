@@ -1,7 +1,5 @@
 schema_version: 1-0-0
 name: midnight-ont-v3
-aliases:
-- midnight-v3
 organism: SARS-CoV-2
 organism_aliases:
 - nCoV-2019
