@@ -21,3 +21,6 @@ citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 primer_checksum: primaschema:d03f3757d7d38db4bfcd86752159eeb36b25d042b4e2d70d77e64143e10e786e
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
+notes:
+- Accomodates Omicron BA.2
+- IDT calls this the "SARS-CoV-2-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel v2"

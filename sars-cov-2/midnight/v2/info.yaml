@@ -5,6 +5,7 @@ organism_aliases:
 - nCoV-2019
 aliases:
 - midnight-ont-v2
+- midnight-idt-v1
 derived_from: midnight-v1
 developers:
 - name: Nikki Freed
@@ -13,12 +14,13 @@ vendors:
 - name: Oxford Nanopore Technologies
   url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
   kit_name: MRT001.20
-- name: Integrated DNA Technologies
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
 citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 notes:
-- Accomodates Omicron BA.1
+- Accomodates Omicron BA.1 with single primer addition
+- https://twitter.com/freed_nikki/status/1464477522448433156
+- Not considered a new version by Freed et al. and IDT despite additional primer
 primer_checksum: primaschema:ce8c1dc3b62fb69da50a43e7c39a0bbf9c17843672e4190393ad0f3595bf0a8f
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
