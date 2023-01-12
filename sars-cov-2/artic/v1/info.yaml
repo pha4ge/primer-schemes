@@ -12,5 +12,5 @@ amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v1
 citations:
 - https://doi.org/10.1101%2F2020.09.04.283077
-primer_checksum: primaschema:6878eaff17dd3e5815223bba9e9f113075daa7b4c80ff95dfe735c24443969bc
+primer_checksum: primaschema:9b1d678d94df185234c1e2717c244256029e60c6aee777e363183866ef0a6151
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
