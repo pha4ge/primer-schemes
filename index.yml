@@ -52,6 +52,7 @@ schemes:
         url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/ont-v3
   - name: yale
     organism: MPXV
+    latest_version: "v3"
     versions:
     - version: v3
       url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/mpxv/yale/v3
