@@ -33,9 +33,26 @@ schemes:
     versions:
       - version: "v1"
         repository: "https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/eden/v1"
-  - name: "QIAseq DIRECT"
+  - name: Midnight
     organism: SARS-CoV-2
-    latest_version: "v1"
     versions:
-      - version: "v1"
-        repository: "https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/qiaseqdirect/v1"
+      - version: v1
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/v1
+      - version: v2
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/v2
+      - version: bccdc-v1
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/bccdc-v1
+      - version: bccdc-v2
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/bccdc-v2
+      - version: bccdc-v3
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/bccdc-v3
+      - version: bccdc-v4
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/bccdc-v4
+      - version: ont-v3
+        url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/midnight/ont-v3
+  - name: yale
+    organism: MPXV
+    latest_version: "v3"
+    versions:
+    - version: v3
+      url: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/mpxv/yale/v3
