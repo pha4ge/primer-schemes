@@ -18,5 +18,5 @@ amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
 citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
-primer_checksum: primaschema:b790573026227001ac0b4fa5ebde204687317cc645d7834ba76e32a1f6b033d6
+primer_checksum: primaschema:e1303ce0367cc245e66b80c10f8086c60f64b501e43dff0c0a248e64c34389b7
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca

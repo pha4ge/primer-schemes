@@ -1,0 +1,22 @@
+schema_version: 1-0-0
+name: varskip-vss1a
+organism: SARS-CoV-2
+organism_aliases:
+- nCoV-2019
+developers:
+- name: New England BioLabs
+  url: https://international.neb.com/products/next-generation-sequencing-library-preparation/infectious-diseases-and-artic-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing
+- name: ARTIC network
+  url: https://artic.network
+vendors:
+- name: New England BioLabs
+  url: https://international.neb.com/products/next-generation-sequencing-library-preparation/infectious-diseases-and-artic-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing
+amplicon_size: 400
+repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss1a
+citations:
+- https://doi.org/10.1101%2F2020.09.04.283077
+notes:
+- Adapted from bed + tsv at https://github.com/nebiolabs/VarSkip with help from Brad Langhorst
+derived_from: artic-v3
+primer_checksum: primaschema:f0d4caf86103e5104d2d29d15ffa66d71a29a923dc094bb94dac3c80aef45059
+reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
