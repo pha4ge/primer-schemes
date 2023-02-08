@@ -1,4 +1,4 @@
-schema_version: 1-0-0
+schema_version: 1-0-1
 name: midnight-bccdc-v1
 organism: SARS-CoV-2
 organism_aliases:
@@ -15,5 +15,6 @@ citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 notes:
 - Accomodates P.1
+deprecated: true
 primer_checksum: primaschema:62f2d91308027480dd030e937dce767f2d5cda5a47297895b878e8b6facaac06
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
