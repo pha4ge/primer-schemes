@@ -1,16 +1,32 @@
 # Primer-schemes
 
-A collection of primer scheme definitions for sequencing viral pathogens. A definition minimally comprises a reference sequence (`reference.fasta`), YAML metadata (`info.yaml`), and a Primal Scheme-like BED file describing primer sequences and their positions in reference coordinates (`primer.bed`). Each scheme is assigned an identifier consisting of the scheme family and version, e.g. `artic-v4.1`, `midnight-v2`. Checksums of primer and reference sequence composition are generated at build time and added to `scheme.yaml`.
+A versioned and schematised repository of tiling amplicon PCR primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning in order to facilitate accurate analysis and reuse of amplicon sequence data.
 
-Use [Primaschema](https://github.com/pha4ge/primaschema) to build primer scheme bundles from a `info.yaml`, `reference.fasta` and a 7 column `primer.bed` file.
+A scheme definition has three components:
 
-*The schema definition format has not been finalised and should be considered unstable until initial release. Thereafter the `schema_version` will be incremented by any further changes.*
+1.  A reference sequence ([`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
+2. A seven column BED file of primer sequences & positions in reference coordinates ([`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/primer.bed))
+3. A metadata file in YAML format ([`info.yaml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
+
+*The schema definition format should be considered unstable until initial release. Thereafter the `schema_version` will be incremented by any further changes.*
 
 
 
-## Supported schemes
+## Contributing
 
-### SARS-CoV-2
+We welcome contributions of new primer schemes! We're working on making this process as simple as possible, but in the meantime please open a pull request adding your scheme's bed file into an appropriately named directory (e.g. `sars-cov-2/schemename-v1/primer.bed`) and we should be able to take care of the rest.
+
+
+
+## Tooling
+
+Checksums of primer and reference sequence composition are generated at build time (using [Primaschema](https://github.com/pha4ge/primaschema)) and added to `info.yaml` to help distinguish between similar and identical schemes. A six column scheme.bed file is also generated at build time for legacy tool compatibility.
+
+
+
+## Documented schemes (22)
+
+### SARS-CoV-2 (21)
 
  - `artic-v1`
  - `artic-v2`
@@ -21,23 +37,26 @@ Use [Primaschema](https://github.com/pha4ge/primaschema) to build primer scheme 
  - `artic-v5.1.0_400`
  - `artic-v5.2.0_1200`
  - `artic-v5.2.0_400`
+ - `eden-v1`
  - `midnight-bccdc-v1`
  - `midnight-bccdc-v2`
  - `midnight-bccdc-v3`
  - `midnight-bccdc-v4`
  - `midnight-ont-v3`
+ - `midnight-v1`
+ - `midnight-v2`
  - `varskip-vsl1a`
  - `varskip-vss1a`
  - `varskip-vss2a`
  - `varskip-vss2b`
 
-### MPXV
+
+
+### MPXV (1)
 
 - `yale-v3`
 
 
 
-## Contributing
 
-Pull requests containing new schemes or modifications to existing schemes are encouraged! We wish to make contributing new schemes as easy as possible and are working on UI to simplifty submissions.
 

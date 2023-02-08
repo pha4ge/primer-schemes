@@ -60,7 +60,7 @@ schemes:
       repository: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/varskip/vss2a
     - version: vss2b
       repository: https://raw.githubusercontent.com/PHA4GE/primer-schemes/main/sars-cov-2/varskip/vss2b
-  - name: yale
+  - name: Yale
     organism: MPXV
     versions:
     - version: v3
