@@ -1,4 +1,4 @@
-# Primer-schemes
+# Primer schemes
 
 A versioned and schematised repository of tiling amplicon PCR primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning in order to facilitate accurate analysis and reuse of amplicon sequence data.
 
@@ -6,7 +6,7 @@ A scheme definition has three components:
 
 1.  A reference sequence ([`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
 2. A seven column BED file of primer sequences & positions in reference coordinates ([`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/primer.bed))
-3. A metadata file in YAML format ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
+3. A metadata file in YAML format ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/info.yml))
 
 *The scheme definition format should be considered unstable until initial release. Thereafter the `schema_version` will be incremented following further changes.*
 
