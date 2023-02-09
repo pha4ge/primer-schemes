@@ -2,7 +2,7 @@ schema_version: 1-0-1
 name: midnight-bccdc-v4
 aliases:
 - midnight-idt-v2
-organism: SARS-CoV-2
+organism: sars-cov-2 
 organism_aliases:
 - nCoV-2019
 derived_from: midnight-bccdc-v3
@@ -23,5 +23,5 @@ primer_checksum: primaschema:6ed89a7ed159466dfc8244c372467e7319b1287e87438affc23
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
 notes:
 - Accomodates Omicron BA.2
-- IDT calls this the "SARS-CoV-2-Midnight-1200 Amplicon Panel" and "Midnight Amplicon
+- IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon
   Panel v2"

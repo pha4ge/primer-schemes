@@ -1,6 +1,6 @@
 schema_version: 1-0-1
 name: artic-v5.0.0_400
-organism: SARS-CoV-2
+organism: sars-cov-2 
 organism_aliases:
 - nCoV-2019
 developers:

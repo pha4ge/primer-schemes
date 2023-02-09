@@ -1,6 +1,6 @@
 schema_version: 1-0-1
 name: varskip-vss1a
-organism: SARS-CoV-2
+organism: sars-cov-2 
 organism_aliases:
 - nCoV-2019
 developers:

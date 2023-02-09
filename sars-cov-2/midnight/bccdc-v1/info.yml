@@ -1,6 +1,6 @@
 schema_version: 1-0-1
 name: midnight-bccdc-v1
-organism: SARS-CoV-2
+organism: sars-cov-2 
 organism_aliases:
 - nCoV-2019
 derived_from: midnight-v1
