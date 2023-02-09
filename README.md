@@ -6,7 +6,7 @@ A scheme definition has three components:
 
 1.  A reference sequence ([`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
 2. A seven column BED file of primer sequences & positions in reference coordinates ([`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/primer.bed))
-3. A metadata file in YAML format ([`info.yaml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
+3. A metadata file in YAML format ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
 
 *The scheme definition format should be considered unstable until initial release. Thereafter the `schema_version` will be incremented following further changes.*
 
@@ -20,7 +20,7 @@ We welcome contributions of new primer schemes! We're working on making this pro
 
 ## Tooling
 
-Checksums of primer and reference sequence composition are generated at build time (using [Primaschema](https://github.com/pha4ge/primaschema)) and added to `info.yaml` to help distinguish between similar and identical schemes. A six column scheme.bed file is also generated at build time for legacy tool compatibility.
+The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be used to validate each of the BED, FASTA and YAML components of scheme definitions. Primaschema adds primer and reference sequence checksums to `info.yml` at build time to help distinguish between similar and identical primer schemes. A six column scheme.bed file is also generated at build time for legacy tool compatibility.
 
 
 
