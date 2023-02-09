@@ -1,4 +1,4 @@
-schema_version: 1-0-0
+schema_version: 1-0-1
 name: artic-v4.1
 organism: SARS-CoV-2
 organism_aliases:

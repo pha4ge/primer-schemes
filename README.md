@@ -8,7 +8,7 @@ A scheme definition has three components:
 2. A seven column BED file of primer sequences & positions in reference coordinates ([`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/primer.bed))
 3. A metadata file in YAML format ([`info.yaml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
 
-*The schema definition format should be considered unstable until initial release. Thereafter the `schema_version` will be incremented by any further changes.*
+*The scheme definition format should be considered unstable until initial release. Thereafter the `schema_version` will be incremented following further changes.*
 
 
 
