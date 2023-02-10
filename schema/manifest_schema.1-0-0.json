@@ -1,0 +1,92 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/pha4ge/primaschema/tree/main/schemas/mainfest_schema.json",
+    "title": "Primer Scheme Manifest",
+    "description": "A Manifest of Primer Schemes",
+    "type": "object",
+    "properties": {
+        "metadata": {
+            "description": "Metadata describing the contents of the manifest",
+            "type": "string"
+        },
+        "repository": {
+            "description": "A URI describing the location of the live, updatable version of the schema",
+            "type": "string"
+        },
+        "latest_doi": {
+            "description": "The Digital Object Identifier of the latest version of the manifest",
+            "type": "string"
+        },
+        "license": {
+            "description": "The license under which the manifest is released. Should be an identifier in the SPDX license list",
+            "type": "string"
+        },
+        "schemes": {
+            "description": "The list of schemes in this manifest",
+            "type": "array",
+            "uniqueItems": true,
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "The common name of the scheme",
+                        "type": "string"
+                    },
+                    "aliases": {
+                        "description": "Aliases for the scheme name",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "organism": {
+                        "description": "The organism that this primer scheme refers to, e.g. SARS-CoV-2",
+                        "type": "string"
+                    },
+                    "organism_aliases": {
+                        "description": "Aliases for organism name",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "versions": {
+                        "type": "array",
+                        "uniqueItems": true,
+                        "minItems": 1,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "version": {
+                                    "type": "string"
+                                },
+                                "repository": {
+                                    "description": "Link to the directory containing the scheme. This directory should follow the PHA4GE standard for schemes",
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "version",
+                                "repository"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "organism",
+                    "latest_version",
+                    "versions"
+                ]
+            }
+        }
+    },
+    "required": [
+        "metadata",
+        "repository",
+        "latest_doi",
+        "license",
+        "schemes"
+    ]
+}
