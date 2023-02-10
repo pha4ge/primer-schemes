@@ -1,3 +1,4 @@
+![Tests](https://github.com/pha4ge/primer-schemes/actions/workflows/test.yml/badge.svg)
 # Primer schemes
 
 A versioned and schematised repository of tiling amplicon PCR primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning in order to facilitate accurate analysis and reuse of amplicon sequence data.
