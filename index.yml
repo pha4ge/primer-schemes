@@ -1,87 +1,118 @@
-latest_doi: https://doi.coming.soon/
-license: CC-BY-4.0
+schema_version: 2-0-0
 metadata: The PHA4GE list of amplicon primer schemes
 repository: https://github.com/pha4ge/primer-schemes
-schema_version: 2-0-0
+latest_doi: https://doi.coming.soon/
+license: CC-BY-4.0
+organisms:
+- organism: sars-cov-2
+  display_name: SARS-CoV-2
+  aliases:
+  - nCoV-2019
+- organism: mpxv
+  display_name: MPXV
+  aliases:
+  - Monkeypox virus
 schemes:
 - family: artic
   organism: sars-cov-2
   versions:
   - name: artic-v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v1
+    display_name: artic-v1
     version: v1
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v1
   - name: artic-v2
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v2
+    display_name: artic-v2
     version: v2
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v2
   - name: artic-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v3
+    display_name: artic-v3
     version: v3
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v3
   - name: artic-v4
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4
+    display_name: artic-v4
     version: v4
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4
   - name: artic-v4.1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
+    display_name: artic-v4.1
     version: v4.1
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
   - name: artic-v5.0.0_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.0.0_400
+    display_name: artic-v5.0.0_400
     version: v5.0.0_400
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.0.0_400
   - name: artic-v5.1.0_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.1.0_400
+    display_name: artic-v5.1.0_400
     version: v5.1.0_400
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.1.0_400
   - name: artic-v5.2.0_1200
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_1200
+    display_name: artic-v5.2.0_1200
     version: v5.2.0_1200
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_1200
   - name: artic-v5.2.0_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_400
+    display_name: artic-v5.2.0_400
     version: v5.2.0_400
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_400
 - family: eden
   organism: sars-cov-2
   versions:
   - name: eden-v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
+    display_name: eden-v1
     version: v1
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
 - family: midnight
   organism: sars-cov-2
   versions:
   - name: midnight-bccdc-v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v1
+    display_name: midnight-bccdc-v1
     version: bccdc-v1
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v1
   - name: midnight-bccdc-v2
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v2
+    display_name: midnight-bccdc-v2
     version: bccdc-v2
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v2
   - name: midnight-bccdc-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v3
+    display_name: midnight-bccdc-v3
     version: bccdc-v3
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v3
   - name: midnight-bccdc-v4
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
+    display_name: midnight-bccdc-v4
     version: bccdc-v4
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
   - name: midnight-ont-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3
+    display_name: midnight-ont-v3
     version: ont-v3
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3
   - name: midnight-v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
+    display_name: midnight-v1
     version: v1
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
   - name: midnight-v2
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
+    display_name: midnight-v2
     version: v2
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
 - family: varskip
   organism: sars-cov-2
   versions:
   - name: varskip-vsl1a
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vsl1a
+    display_name: VarSkip VSL1A
     version: vsl1a
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vsl1a
   - name: varskip-vss1a
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss1a
+    display_name: VarSkip VSS1A
     version: vss1a
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss1a
   - name: varskip-vss2a
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
+    display_name: VarSkip VSS2A
     version: vss2a
-  - name: varskip-vss2b
     repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
+  - name: varskip-vss2b
+    display_name: VarSkip VSS2B
     version: vss2b
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
 - family: yale
-  organism: sars-cov-2 MPXV
+  organism: MPXV
   versions:
   - name: yale-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v3
+    display_name: yale-v3
     version: v3
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v3

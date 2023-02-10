@@ -1,0 +1,8 @@
+- organism: sars-cov-2
+  display_name: SARS-CoV-2
+  aliases:
+  - nCoV-2019
+- organism: mpxv
+  display_name: MPXV
+  aliases:
+  - Monkeypox virus

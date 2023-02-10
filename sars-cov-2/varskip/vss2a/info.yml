@@ -1,8 +1,7 @@
-schema_version: 1-0-1
+schema_version: 2-0-0
 name: varskip-vss2a
-organism: sars-cov-2 
-organism_aliases:
-- nCoV-2019
+display_name: VarSkip VSS2A
+organism: sars-cov-2
 developers:
 - name: New England BioLabs
   url: https://international.neb.com/products/next-generation-sequencing-library-preparation/infectious-diseases-and-artic-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing

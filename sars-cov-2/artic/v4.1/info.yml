@@ -1,8 +1,6 @@
-schema_version: 1-0-1
+schema_version: 2-0-0
 name: artic-v4.1
-organism: sars-cov-2 
-organism_aliases:
-- nCoV-2019
+organism: sars-cov-2
 aliases:
 - ARTIC/V4.1
 developers:

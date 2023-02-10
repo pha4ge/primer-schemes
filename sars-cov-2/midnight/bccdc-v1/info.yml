@@ -1,8 +1,6 @@
-schema_version: 1-0-1
+schema_version: 2-0-0
 name: midnight-bccdc-v1
-organism: sars-cov-2 
-organism_aliases:
-- nCoV-2019
+organism: sars-cov-2
 derived_from: midnight-v1
 developers:
 - name: Nikki Freed

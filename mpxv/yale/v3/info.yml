@@ -1,6 +1,6 @@
-schema_version: 1-0-1
+schema_version: 2-0-0
 name: yale-v3
-organism: sars-cov-2 MPXV
+organism: MPXV
 developers:
 - name: Chantal B.F. Vogels
   url: https://ysph.yale.edu/profile/chantal-vogels/
