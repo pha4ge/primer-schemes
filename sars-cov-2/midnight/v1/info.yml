@@ -5,17 +5,17 @@ aliases:
 - midnight-ont-v1
 - V1200
 developers:
-- name: Nikki Freed
-- name: Olin Silander
+- person_name: Nikki Freed
+- person_name: Olin Silander
 vendors:
-- name: Oxford Nanopore Technologies
-  url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
+- organisation_name: "Oxford Nanopore Technologies"
+  home_page: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
   kit_name: MRT001.10
-- name: Integrated DNA Technologies
+- organisation_name: "Integrated DNA Technologies"
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
 citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
-deprecated: true
+primer_scheme_version_status: DEPRECATED
 primer_checksum: primaschema:e1303ce0367cc245e66b80c10f8086c60f64b501e43dff0c0a248e64c34389b7
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
