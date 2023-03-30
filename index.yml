@@ -81,7 +81,7 @@ schemes:
   - name: midnight-ont-v3
     display_name: midnight-ont-v3
     version: ont-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/ont-v3
   - name: midnight-v1
     display_name: midnight-v1
     version: v1
