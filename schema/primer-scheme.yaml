@@ -24,7 +24,7 @@ classes:
       - organism
       - organism_aliases
       - display_name
-      - primer_scheme_version_status
+      - primer_scheme_status
       - aliases
       - derived_from
       - developers
@@ -112,10 +112,11 @@ slots:
     multivalued: true
     inlined_as_list: true
     range: string
-  primer_scheme_version_status:
+  primer_scheme_status:
     slot_uri: GENEPIO:0100681
     description: "The status of this primer scheme (e.g. published, deprecated)"
-    range: PrimerSchemeVersionStatus
+    range: PrimerSchemeStatus
+    ifabsent: string(PUBLISHED)
   citations:
     slot_uri: IAO:0000301
     description: "URLs of publications describing the scheme (DOIs preferred when available)"
@@ -143,9 +144,8 @@ slots:
     description: "A link to the home page of an organisation"
 
 enums:
-  PrimerSchemeVersionStatus:
+  PrimerSchemeStatus:
     description: "Status of this amplicon primer scheme"
     permissible_values:
       PUBLISHED:
       DEPRECATED:
-      UNDER_DEVELOPMENT:
