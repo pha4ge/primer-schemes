@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: midnight-v1
 organism: sars-cov-2
 aliases:
@@ -10,7 +10,6 @@ developers:
 vendors:
 - organisation_name: "Oxford Nanopore Technologies"
   home_page: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
-  kit_name: MRT001.10
 - organisation_name: "Integrated DNA Technologies"
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
