@@ -1,5 +1,7 @@
-id: https://github.com/pha4ge/primer-schemes/schemas/primerscheme
-name: primerscheme
+id: https://github.com/pha4ge/primer-schemes/schemas/primer-scheme
+name: primer-scheme
+description: Data model for tiling PCR primer scheme definitions
+version: 0.9.0
 prefixes:
   linkml: https://w3id.org/linkml/
   schema: http://schema.org/
@@ -34,7 +36,6 @@ classes:
       - reference_checksum
       - repository_url
 
-
   Vendor:
     class_uri: GENEPIO:0100674
     description: "Vendor of the primers described in the amplicon scheme or a kit containing these primers"
@@ -59,12 +60,10 @@ classes:
       - organisation_name
       - home_page
 
-
-      
 slots:
   schema_version:
     required: true
-    description: The version of the schema used to create this scheme definition. Currently 2-0-0
+    description: The version of the schema used to create this scheme definition
   name:
     slot_uri: GENEPIO:0001456
     required: true
@@ -92,7 +91,7 @@ slots:
     multivalued: true
     any_of:
       - range: Person
-      - range: Organization
+      - range: Organisation
   vendors:
     description: "Vendors where one can purchase the primers described in the amplicon scheme or a kit containing these primers"
     multivalued: true
