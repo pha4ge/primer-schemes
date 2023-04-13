@@ -4,7 +4,7 @@ organism: sars-cov-2
 developers:
 - name: ARTIC network
   url: https://artic.network/
-amplicon_size: 400
+amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_1200
 citations:
 - https://doi.org/10.1101%2F2020.09.04.283077
