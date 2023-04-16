@@ -4,6 +4,10 @@ organism: sars-cov-2
 developers:
 - name: ARTIC network
   url: https://artic.network/
+vendors:
+- name: IDT
+  url: https://eu.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-amplicon-sequencing/predesigned-amplicon-panels/artic-sc2-amp-panel
+  kit_name: '10016495'
 amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.3.2_400
 citations:
