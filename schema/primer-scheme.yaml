@@ -46,16 +46,18 @@ classes:
         slot_uri: GENEPIO:0100693
         description: "Vendor specific kit name for primer kit"        
 
+  Entity:
+  
   Person:
     description: "A natural person"
+    is_a: Entity
     slots:
       - person_name
-      - orcid_id
-    id_prefixes:
-      - ORCID
+      - orcid
   
   Organisation:
     description: "An organisation"
+    is_a: Entity
     slots:
       - organisation_name
       - home_page
@@ -89,6 +91,9 @@ slots:
     description: Persons or organisations responsible for developing the primer scheme
     required: true
     multivalued: true
+    inlined: true
+    inlined_as_list: true
+    range: Entity
     any_of:
       - range: Person
       - range: Organisation
@@ -134,9 +139,8 @@ slots:
     slot_uri: schema:name
     required: true
     description: "The name of a natural person"
-  orcid_id:
-    description: "ORCID ID of a person"
-    identifier: true
+  orcid:
+    description: "ORCID ('Open Researcher and Contributor IDentifier') of a person"
   organisation_name:
     required: true
     description: "The name of an organisation"
