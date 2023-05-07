@@ -5,13 +5,12 @@ aliases:
 organism: sars-cov-2
 derived_from: midnight-bccdc-v3
 developers:
-- name: Nikki Freed
-- name: Olin Silander
-- name: John Tyson
-- name: Tracy Lee
+- person_name: Nikki Freed
+- person_name: Olin Silander
+- person_name: John Tyson
+- person_name: Tracy Lee
 vendors:
-- name: Integrated DNA Technologies
-  url: https://eu.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-amplicon-sequencing/predesigned-amplicon-panels/sars-cov-2-midnight-amp-panel#product-details
+- organisation_name: Integrated DNA Technologies
   kit_name: '10011644'
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4

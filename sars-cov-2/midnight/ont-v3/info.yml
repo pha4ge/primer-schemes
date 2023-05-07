@@ -3,12 +3,11 @@ name: midnight-ont-v3
 organism: sars-cov-2
 derived_from: midnight-v2
 developers:
-- name: Nikki Freed
-- name: Olin Silander
-- name: Oxford Nanopore Technologies
+- person_name: Nikki Freed
+- person_name: Olin Silander
+- person_name: Oxford Nanopore Technologies
 vendors:
-- name: Oxford Nanopore Technologies
-  url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
+- organisation_name: Oxford Nanopore Technologies
   kit_name: MRT001.30
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3

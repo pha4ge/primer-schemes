@@ -2,10 +2,10 @@ schema_version: 2-0-0
 name: yale-v3
 organism: MPXV
 developers:
-- name: Chantal B.F. Vogels
-  url: https://ysph.yale.edu/profile/chantal-vogels/
+- person_name: Chantal B.F. Vogels
+  orcid: 0000-0003-0027-6480
 vendors:
-- name: IDT
+- organisation_name: IDT
   kit_name: Yale hMPXV Amplicon Panel
 amplicon_size: 2000
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v3

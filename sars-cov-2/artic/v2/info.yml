@@ -4,13 +4,13 @@ organism: sars-cov-2
 aliases:
 - ARTIC/V4
 developers:
-- name: ARTIC network
-  url: https://artic.network/
+- organisation_name: ARTIC network
+  home_page: https://artic.network/
 amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v2
 citations:
 - https://doi.org/10.1101%2F2020.09.04.283077
 derived_from: artic-v1
-deprecated: true
+primer_scheme_status: DEPRECATED
 primer_checksum: primaschema:6b9e64d0968d826c637caa9df019d3bf157911592cf5f7506e6e8e7c5f191767
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca

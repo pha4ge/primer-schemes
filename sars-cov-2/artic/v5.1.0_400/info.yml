@@ -2,12 +2,13 @@ schema_version: 2-0-0
 name: artic-v5.1.0_400
 organism: sars-cov-2
 developers:
-- name: ARTIC network
-  url: https://artic.network/
+- organisation_name: ARTIC network
+  home_page: https://artic.network/
 amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.1.0_400
 citations:
 - https://doi.org/10.1101%2F2020.09.04.283077
 derived_from: artic-v5.0.0_400
+primer_scheme_status: DEPRECATED
 primer_checksum: primaschema:f5314a544798382906d34700e8ec7fb0b5cfc8dc9ac496bf076f3f3ca1876a6d
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca

@@ -3,13 +3,13 @@ name: varskip-vss2a
 display_name: VarSkip VSS2A
 organism: sars-cov-2
 developers:
-- name: New England BioLabs
-  url: https://international.neb.com/products/next-generation-sequencing-library-preparation/infectious-diseases-and-artic-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing
-- name: ARTIC network
-  url: https://artic.network
+- organisation_name: New England BioLabs
+  home_page: https://neb.com
+- organisation_name: ARTIC network
+  home_page: https://artic.network
 vendors:
-- name: New England BioLabs
-  url: https://international.neb.com/products/next-generation-sequencing-library-preparation/infectious-diseases-and-artic-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing/nebnext-artic-products-for-sars-cov-2-sequencing
+- organisation_name: New England BioLabs
+  home_page: https://neb.com
 amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
 citations:

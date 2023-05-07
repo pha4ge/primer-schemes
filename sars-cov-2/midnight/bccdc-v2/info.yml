@@ -3,16 +3,16 @@ name: midnight-bccdc-v2
 organism: sars-cov-2
 derived_from: midnight-bccdc-v1
 developers:
-- name: Nikki Freed
-- name: Olin Silander
-- name: John Tyson
-- name: Tracy Lee
+- person_name: Nikki Freed
+- person_name: Olin Silander
+- person_name: John Tyson
+- person_name: Tracy Lee
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v2
 citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 notes:
 - Accomodates BA.1
-deprecated: true
+primer_scheme_status: DEPRECATED
 primer_checksum: primaschema:50191ae0f7a45cf5f5e69253f76984cfffb81cf97751c8c696900f6a7d0cad18
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca

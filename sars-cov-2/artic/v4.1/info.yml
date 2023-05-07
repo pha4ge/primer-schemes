@@ -4,14 +4,13 @@ organism: sars-cov-2
 aliases:
 - ARTIC/V4.1
 developers:
-- name: ARTIC network
-  url: https://artic.network/
+- organisation_name: ARTIC network
+  home_page: https://artic.network/
 vendors:
-- name: IDT
-  url: https://eu.idtdna.com/pages
+- organisation_name: IDT
   kit_name: '10011442'
-- name: Eurofins
-  url: https://eurofinsgenomics.com
+- organisation_name: Eurofins
+  home_page: https://eurofinsgenomics.com
 amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
 citations:

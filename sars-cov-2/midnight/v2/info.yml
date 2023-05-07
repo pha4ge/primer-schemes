@@ -6,11 +6,10 @@ aliases:
 - midnight-idt-v1
 derived_from: midnight-v1
 developers:
-- name: Nikki Freed
-- name: Olin Silander
+- person_name: Nikki Freed
+- person_name: Olin Silander
 vendors:
-- name: Oxford Nanopore Technologies
-  url: https://store.nanoporetech.com/uk/midnight-rt-pcr-expansion.html
+- organisation_name: Oxford Nanopore Technologies
   kit_name: MRT001.20
 amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
@@ -20,6 +19,6 @@ notes:
 - Accomodates Omicron BA.1 with single primer addition
 - https://twitter.com/freed_nikki/status/1464477522448433156
 - Not considered a new version by Freed et al. and IDT despite additional primer
-deprecated: true
+primer_scheme_status: DEPRECATED
 primer_checksum: primaschema:8f733a1f180c435af14d88fa395df5f88e1e1e0e9bde2c0719af8111079afce5
 reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
