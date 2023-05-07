@@ -12,13 +12,13 @@ A scheme definition has three components:
 
 1.  A reference sequence ([`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
 2.  A seven column BED file of primer sequences & positions in reference coordinates ([`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/primer.bed))
-3.  A metadata file in YAML format ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/info.yml)) following [this JSON schema](https://github.com/pha4ge/primer-schemes/blob/main/schema/scheme_schema.latest.json)
+3.  A metadata file in YAML format adhering to [this schema](https://github.com/pha4ge/primer-schemes/blob/main/schema/primer_scheme.yml) ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/info.yml))
 
 
 
 ## Contributing new schemes
 
-We welcome contributions of new primer schemes! We're working to make this process easier, but in the meantime please either follow the instructions below and create a pull request, or else [open a GitHub issue](https://github.com/pha4ge/primer-schemes/issues) attaching or linking to a BED file so that we can assist.
+We welcome contributions of new primer schemes! We're working to make this process easier, but in the meantime please either follow the instructions below and create a pull request, or else [open a GitHub issue](https://github.com/pha4ge/primer-schemes/issues) attaching or linking to a BED file so that we can help.
 
 ### Instructions
 
@@ -30,8 +30,8 @@ We welcome contributions of new primer schemes! We're working to make this proce
    name: schemename-v1
    organism: sars-cov-2
    developers:
-   - name: Jane Doe
-     url: https://orcid.org/1234-5678
+   - person_name: Jane Doe
+     orcid: 1234-5678-9876-5432
    amplicon_size: 1200
    repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/schemename/v1
    ```
@@ -40,19 +40,19 @@ We welcome contributions of new primer schemes! We're working to make this proce
 
 4. Copy your scheme's reference sequence into this directory, naming it `reference.fasta` 
 
-5. Either open a pull request adding your scheme directory (e.g. inside `sars-cov-2/schemename/v1`), or else open a GitHub issue attaching a zip file containing your scheme.
+5. Either **open a pull request** adding your scheme directory (e.g. inside `sars-cov-2/schemename/v1`), or else **open a GitHub issue** attaching a zip file containing your scheme.
 
 
 
 ## Tooling
 
-The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be used to validate each of the BED, FASTA and YAML components of scheme definitions. Primaschema adds primer and reference sequence checksums to `info.yml` at build time to help distinguish between similar and identical primer schemes. A six column scheme.bed file is also generated at build time for legacy tool compatibility.
+The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be used to validate scheme definitions and automatically checks this repository via GitHub Actions. Primaschema adds primer and reference sequence checksums to `info.yml` at build time to help catch identical primer schemes. A six column scheme.bed file is also generated at build time for legacy tool compatibility.
 
 
 
-## Documented schemes (22)
+## Documented schemes (23)
 
-### SARS-CoV-2 (21)
+### SARS-CoV-2 (22)
 
  - `artic-v1`
  - `artic-v2`
@@ -63,6 +63,7 @@ The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be u
  - `artic-v5.1.0_400`
  - `artic-v5.2.0_1200`
  - `artic-v5.2.0_400`
+ - `artic-v5.3.2_400`
  - `eden-v1`
  - `midnight-bccdc-v1`
  - `midnight-bccdc-v2`
@@ -81,5 +82,4 @@ The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be u
 ### MPXV (1)
 
 - `yale-v3`
-
 
