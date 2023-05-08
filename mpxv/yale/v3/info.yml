@@ -1,6 +1,6 @@
 schema_version: 2-0-0
 name: yale-v3
-organism: MPXV
+organism: mpxv
 developers:
 - person_name: Chantal B.F. Vogels
   orcid: 0000-0003-0027-6480

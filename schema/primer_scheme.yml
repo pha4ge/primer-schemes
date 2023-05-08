@@ -153,3 +153,4 @@ enums:
     permissible_values:
       PUBLISHED:
       DEPRECATED:
+      DRAFT:

@@ -6,3 +6,7 @@
   display_name: MPXV
   aliases:
   - Monkeypox virus
+- organism: niv
+  display_name: NiV
+  aliases:
+  - Nipah virus
