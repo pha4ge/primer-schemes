@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: yale-v3
 organism: mpxv
 developers:
@@ -11,5 +11,5 @@ amplicon_size: 2000
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v3
 citations:
 - https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o/v3
-primer_checksum: primaschema:973600b2f6aa2fee87b99c4311b47afcec83e9da79270598edf41b2b8124ddcf
-reference_checksum: primaschema:3b3fa241d3d7968083d167ebfcdcae1ef9d1f8558b592bfec3201f6fe71b8f00
+primer_checksum: primaschema:973600b2f6aa2fee
+reference_checksum: primaschema:3b3fa241d3d79680

@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: midnight-bccdc-v4
 aliases:
 - midnight-idt-v2
@@ -16,9 +16,9 @@ amplicon_size: 1200
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
 citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
-primer_checksum: primaschema:6ed89a7ed159466dfc8244c372467e7319b1287e87438affc236cb2aa20adeb1
-reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
+primer_checksum: primaschema:6ed89a7ed159466d
+reference_checksum: primaschema:7d5621cd3b3e498d
 notes:
 - Accomodates Omicron BA.2
-- IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon
-  Panel v2"
+- IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel
+  v2"

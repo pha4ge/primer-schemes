@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: artic-v3
 organism: sars-cov-2
 aliases:
@@ -12,5 +12,5 @@ citations:
 - https://doi.org/10.1101%2F2020.09.04.283077
 derived_from: artic-v2
 primer_scheme_status: DEPRECATED
-primer_checksum: primaschema:34ca07d9c616461fd7a1fae563188315a1fbfe7052bfbc4ee5d9ac8144ad8c56
-reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
+primer_checksum: primaschema:34ca07d9c616461f
+reference_checksum: primaschema:7d5621cd3b3e498d

@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: varskip-vss2b
 display_name: VarSkip VSS2B
 organism: sars-cov-2
@@ -15,7 +15,8 @@ repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/va
 citations:
 - https://doi.org/10.1101%2F2020.09.04.283077
 notes:
-- Adapted from bed + tsv at https://github.com/nebiolabs/VarSkip with help from Brad Langhorst
+- Adapted from bed + tsv at https://github.com/nebiolabs/VarSkip with help from Brad
+  Langhorst
 derived_from: varskip-vss2a
-primer_checksum: primaschema:e4242c52aff32c590f8b1354bfacf359e3b7f6278263159116602149d8612539
-reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
+primer_checksum: primaschema:e4242c52aff32c59
+reference_checksum: primaschema:7d5621cd3b3e498d

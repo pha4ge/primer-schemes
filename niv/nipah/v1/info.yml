@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: nipah-v1
 organism: niv
 developers:
@@ -6,5 +6,5 @@ developers:
   home_page: https://artic.network
 amplicon_size: 400
 repository_url: https://github.com/pha4ge/primer-schemes/tree/main/niv/nipah/v1
-primer_checksum: primaschema:a56163858bad23072db0c4dac96c37294e7430b093397afba9ebd52a443c6aec
-reference_checksum: primaschema:97e2ee3d469ba0b48c2fd7f8ee916356e5a07412ba35d173da00e828b8d5b51b
+primer_checksum: primaschema:a56163858bad2307
+reference_checksum: primaschema:97e2ee3d469ba0b4

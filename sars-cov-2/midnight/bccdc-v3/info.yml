@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: midnight-bccdc-v3
 organism: sars-cov-2
 derived_from: midnight-bccdc-v2
@@ -12,5 +12,5 @@ repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/mi
 citations:
 - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
 primer_scheme_status: DEPRECATED
-primer_checksum: primaschema:3e118ebd83d1a8613490e23c452ccc85422dd95a2726b5f39e8b1b1c46261505
-reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
+primer_checksum: primaschema:3e118ebd83d1a861
+reference_checksum: primaschema:7d5621cd3b3e498d

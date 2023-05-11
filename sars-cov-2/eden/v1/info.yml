@@ -1,4 +1,4 @@
-schema_version: 2-0-0
+schema_version: 0.9.0
 name: eden-v1
 organism: sars-cov-2
 aliases:
@@ -15,5 +15,5 @@ citations:
 - https://www.protocols.io/view/sars-cov-2-genome-sequencing-using-long-pooled-amp-kxygxeob4v8j/v1
 notes:
 - Protocol includes addendum for ONT sequencing
-primer_checksum: primaschema:9f9c80501b744d15c9f8f077f0d7b0a63fbf6f07903007fb4bd264c500138e49
-reference_checksum: primaschema:7d5621cd3b3e498d0c27fcca9d3d3c5168c7f3d3f9776f3005c7011bd90068ca
+primer_checksum: primaschema:9f9c80501b744d15
+reference_checksum: primaschema:7d5621cd3b3e498d
