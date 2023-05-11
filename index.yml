@@ -12,6 +12,10 @@ organisms:
   display_name: MPXV
   aliases:
   - Monkeypox virus
+- organism: niv
+  display_name: NiV
+  aliases:
+  - Nipah virus
 schemes:
 - family: artic
   organism: sars-cov-2
@@ -52,6 +56,10 @@ schemes:
     display_name: artic-v5.2.0_400
     version: v5.2.0_400
     repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_400
+  - name: artic-v5.3.2_400
+    display_name: artic-v5.3.2_400
+    version: v5.3.2_400
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.3.2_400
 - family: eden
   organism: sars-cov-2
   versions:
@@ -90,6 +98,13 @@ schemes:
     display_name: midnight-v2
     version: v2
     repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
+- family: nipah
+  organism: niv
+  versions:
+  - name: nipah-v1
+    display_name: nipah-v1
+    version: v1
+    repository: https://github.com/pha4ge/primer-schemes/tree/main/niv/nipah/v1
 - family: varskip
   organism: sars-cov-2
   versions:
@@ -110,7 +125,7 @@ schemes:
     version: vss2b
     repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
 - family: yale
-  organism: MPXV
+  organism: mpxv
   versions:
   - name: yale-v3
     display_name: yale-v3

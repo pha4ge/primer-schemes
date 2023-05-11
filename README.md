@@ -26,7 +26,7 @@ We welcome contributions of new primer schemes! We're working to make this proce
 
 2. Create a directory named `schemename-v1` containing a text file `info.yml` containing:
    ```yaml
-   schema_version: 2-0-0
+   schema_version: 0.9.0
    name: schemename-v1
    organism: sars-cov-2
    developers:
@@ -39,6 +39,7 @@ We welcome contributions of new primer schemes! We're working to make this proce
 3. Copy your scheme's BED file into this directory, naming it `primer.bed`
 
 4. Copy your scheme's reference sequence into this directory, naming it `reference.fasta` 
+5. Optionally run `primaschema build schemename-v1/` to create a finished scheme bundle  
 
 5. Either **open a pull request** adding your scheme directory (e.g. inside `sars-cov-2/schemename/v1`), or else **open a GitHub issue** attaching a zip file containing your scheme.
 
@@ -46,11 +47,11 @@ We welcome contributions of new primer schemes! We're working to make this proce
 
 ## Tooling
 
-The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be used to validate scheme definitions and automatically checks this repository via GitHub Actions. Primaschema adds primer and reference sequence checksums to `info.yml` at build time to help catch identical primer schemes. A six column scheme.bed file is also generated at build time for legacy tool compatibility.
+The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be used to validate scheme definitions and automatically checks and updates this repository via GitHub Actions. Primaschema adds primer and reference sequence checksums to `info.yml` at build time to help catch identical primer schemes. A six column scheme.bed file is also generated at build time for legacy compatibility.
 
 
 
-## Documented schemes (23)
+## Documented schemes (24)
 
 ### SARS-CoV-2 (22)
 
@@ -83,3 +84,6 @@ The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be u
 
 - `yale-v3`
 
+### NiV (1)
+
+- `nipah-v1`
