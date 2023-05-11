@@ -2,6 +2,7 @@ schema_version: 0.9.0
 name: midnight-v2
 organism: sars-cov-2
 aliases:
+- Midnight-ONT/V2
 - midnight-ont-v2
 - midnight-idt-v1
 derived_from: midnight-v1
