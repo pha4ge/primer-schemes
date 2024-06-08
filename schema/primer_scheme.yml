@@ -1,7 +1,7 @@
 id: https://github.com/pha4ge/primer-schemes/schemas/primer-scheme
 name: primer-scheme
 description: Data model for tiling PCR primer scheme definitions
-version: 0.9.0
+version: 0.10.0
 prefixes:
   linkml: https://w3id.org/linkml/
   schema: http://schema.org/
@@ -17,69 +17,58 @@ default_range: string
 classes:
   PrimerScheme:
     tree_root: true
-    description: "A description of an amplicon primer scheme"
-    slots:
-      - schema_version
-      - name 
-      - organism
-      - organism_aliases
-      - display_name
-      - primer_scheme_status
-      - aliases
-      - derived_from
-      - developers
-      - vendors
-      - amplicon_size
-      - notes
-      - citations
-      - primer_checksum
-      - reference_checksum
-      - repository_url
+    description: "Definition of a tiling amplicon PCR primer scheme"
 
   Vendor:
     class_uri: GENEPIO:0100674
-    description: "Vendor of the primers described in the amplicon scheme or a kit containing these primers"
+    description: "Vendor of oligoneucleotide primers matching this primer scheme definition"
     mixins:
       - Organisation
     attributes:
       kit_name:
         slot_uri: GENEPIO:0100693
-        description: "Vendor specific kit name for primer kit"        
+        description: "Vendor-specific name for oligonucleotide primers matching this primer scheme definition"        
 
-  Entity:
-  
+  Developer:
+    abstract: true
+    attributes:
+      type:
+        designates_type: true
+        required: true
+      name:
+        description: "x"
+      url:
+        description: "x"
+
   Person:
     description: "A natural person"
-    is_a: Entity
-    slots:
-      - person_name
-      - orcid
-  
+    is_a: Developer
+    attributes:
+      orcid:
+        description: "ORCID ('Open Researcher and Contributor IDentifier')"
+
   Organisation:
     description: "An organisation"
-    is_a: Entity
-    slots:
-      - organisation_name
-      - home_page
+    is_a: Developer
 
 slots:
   schema_version:
     required: true
-    description: The version of the schema used to create this scheme definition
+    description: "The version of the schema used to create this scheme definition"
   name:
     slot_uri: GENEPIO:0001456
     required: true
     identifier: true
-    description: The canonical name of the primer scheme (lowercase)
+    description: "The canonical name of the primer scheme (lowercase)"
     pattern: "^[\\da-z0-9_.-]+$"
   display_name:
-    description: The human-friendly display name of the primer scheme
+    description: "The human-friendly display name of the primer scheme"
   organism:
     slot_uri: GENEPIO:0100682
     required: true
-    description: The organism against which this primer scheme is targeted. Lowercase, e.g. sars-cov-2
+    description: "the name of the target organism of this primer scheme definition"
   organism_aliases:
-    description: "Aliases for the organism that this primer scheme targets"
+    description: "Aliases for the name of the target organism of this primer scheme definition"
     multivalued: true
   aliases:
     slot_uri: GENEPIO:0100670
@@ -88,29 +77,26 @@ slots:
     inlined_as_list: true
   developers:
     slot_uri: GENEPIO:0100673
-    description: Persons or organisations responsible for developing the primer scheme
+    description: "Persons and/or organisations responsible for developing this primer scheme"
     required: true
     multivalued: true
     inlined: true
     inlined_as_list: true
-    range: Entity
-    any_of:
-      - range: Person
-      - range: Organisation
+    range: Developer
   vendors:
-    description: "Vendors where one can purchase the primers described in the amplicon scheme or a kit containing these primers"
+    description: "Vendors supplying oligonucleotide primers matching this primer scheme definition"
     multivalued: true
     inlined_as_list: true 
     range: Vendor
   amplicon_size:
     slot_uri: GENEPIO:0001449
-    description: "The length (in base pairs) of an amplicon in the primer scheme"
+    description: "The length of amplicons described by this primer scheme in base pairs (bp)"
     range: integer
     minimum_value: 1
   repository_url:
     slot_uri: GENEPIO:0100683
     required: true
-    description: "Link to repository where primer scheme BED and reference files can be found"
+    description: "URL of canonical  repository where primer scheme BED and reference files can be found"
   notes:
     description: "Notes about the amplicon primer scheme"
     slot_uri: GENEPIO:0100672
@@ -135,17 +121,10 @@ slots:
   derived_from:
     slot_uri: GENEPIO:0100671
     description: "Canonical name of the primer scheme from which this scheme was derived"
-  person_name:
-    slot_uri: schema:name
-    required: true
-    description: "The name of a natural person"
-  orcid:
-    description: "ORCID ('Open Researcher and Contributor IDentifier') of a person"
   organisation_name:
     required: true
-    description: "The name of an organisation"
   home_page:
-    description: "A link to the home page of an organisation"
+    description: "Developer website URL (e.g. home page)"
 
 enums:
   PrimerSchemeStatus:
