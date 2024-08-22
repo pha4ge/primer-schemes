@@ -1,0 +1,27 @@
+schema_version: 1.0.0a
+organism: sars-cov-2
+name: midnight
+amplicon_size: 1200
+version: v2.0.0
+aliases:
+- midnight-ont-v2
+- midnight-idt-v1
+- Midnight-ONT/V2
+derived_from: midnight-v1
+developers:
+- Nikki Freed
+- Olin Silander
+vendors:
+- organisation_name: Oxford Nanopore Technologies
+  kit_name: MRT001.20
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
+citations:
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+notes:
+- Accomodates Omicron BA.1 with single primer addition
+- https://twitter.com/freed_nikki/status/1464477522448433156
+- Not considered a new version by Freed et al. and IDT despite additional primer
+license: CC-BY-4.0
+status: DEPRECATED
+primer_checksum: primaschema:eafcbe457b8a2345
+reference_checksum: primaschema:b1acd7163146bf17

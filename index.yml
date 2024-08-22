@@ -1,7 +1,6 @@
-schema_version: 0.9.0
-metadata: The PHA4GE list of tiling amplicon primer schemes
+schema_version: 1.0.0-alpha
+metadata: The manifest of PHA4GE tiled amplicon PCR primer scheme definitions
 repository: https://github.com/pha4ge/primer-schemes
-latest_doi: ''
 license: CC-BY-4.0
 organisms:
 - organism: sars-cov-2
@@ -17,117 +16,385 @@ organisms:
   aliases:
   - Nipah virus
 schemes:
-- family: artic
+- organism: mpxv
+  name: erasmus
+  amplicon_size: 2500
+  version: v1.0.0
+  developers:
+  - Matthijs Welkers
+  - Marcel Jonges
+  - Anton van den Ouden
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v4.1.0
+  citations:
+  - https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:9acd3f5ce5711ed2
+  reference_checksum: primaschema:31ff1b123bbce197
+- organism: mpxv
+  name: yale
+  amplicon_size: 2000
+  version: v1.0.0
+  developers:
+  - Nicholas F.G. Chen
+  - Luc Gagne
+  - Matthew Doucette
+  - Sandra Smole
+  - Erika Buzby
+  - Joshua Hall
+  - Stephanie Ash
+  - Rachel Harrington
+  - Seana Cofsky
+  - Selina Clancy
+  - Curtis J Kapsak
+  - Joel Sevinsky
+  - Kevin Libuit
+  - Mallery I Breban
+  - Chrispin Chaguza
+  - Nathan D. Grubaugh
+  - Daniel J. Park
+  - Glen R. Gallagher
+  - Chantal B.F. Vogels
+  vendors:
+  - organisation_name: IDT
+    kit_name: Yale hMPXV Amplicon Panel
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v4
+  source_url: https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o/v4
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4
+  primer_checksum: primaschema:5a221a7da2cd3a8e
+  reference_checksum: primaschema:81a4de73f5c665a2
+- organism: niv
+  name: nipah
+  amplicon_size: 400
+  version: v1.0.0
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/niv/nipah/400/v1.0.0
+  source_url: https://github.com/artic-network/primer-schemes/tree/master/Nipah/V1
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:6cc114b4202f2a28
+  reference_checksum: primaschema:93e763381bcf23c8
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v1.0.0
+  aliases:
+  - ARTIC/V1
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v1
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v1.0.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:05eb8ddabe9d83d5
+  reference_checksum: primaschema:b1acd7163146bf17
+  status: DEPRECATED
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v2.0.0
+  derived_from: sars-cov-2/artic/400/v1.0.0
+  aliases:
+  - ARTIC/V2
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v2
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v2.0.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:70dc5635f73384fb
+  reference_checksum: primaschema:b1acd7163146bf17
+  status: DEPRECATED
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v3.0.0
+  derived_from: sars-cov-2/artic/400/v2.0.0
+  aliases:
+  - ARTIC/V4.0
+  developers:
+  - ARTIC network
+  vendors:
+  - organisation_name: IDT
+    kit_name: '10011442'
+  - organisation_name: Eurofins
+    home_page: https://eurofinsgenomics.com
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v3
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v3.0.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:9da9db30cf27cd53
+  reference_checksum: primaschema:b1acd7163146bf17
+  status: DEPRECATED
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v4.0.0
+  derived_from: sars-cov-2/artic/400/v3.0.0
+  aliases:
+  - ARTIC/V4.0
+  developers:
+  - ARTIC network
+  vendors:
+  - organisation_name: IDT
+    kit_name: '10011442'
+  - organisation_name: Eurofins
+    home_page: https://eurofinsgenomics.com
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v4.0.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:d5a3ff14f651c8c1
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v4.1.0
+  derived_from: sars-cov-2/artic/400/v4.0.0
+  aliases:
+  - ARTIC/V4.1
+  developers:
+  - ARTIC network
+  vendors:
+  - organisation_name: IDT
+    kit_name: '10011442'
+  - organisation_name: Eurofins
+    home_page: https://eurofinsgenomics.com
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v4.1.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:3ef3e7bb23008684
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v5.0.0
+  derived_from: sars-cov-2/artic/400/v4.1.0
+  aliases:
+  - ARTIC/V5
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v5.0.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:bdaeb59a7ef0ec12
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v5.2.0
+  derived_from: sars-cov-2/artic/400/v5.1.0
+  aliases:
+  - ARTIC/V5
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v5.2.0
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:d57ec2cdb00e2583
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v5.3.2
+  derived_from: sars-cov-2/artic/400/v5.2.0
+  aliases:
+  - ARTIC/V5.3.2
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.3.2
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v5.3.2
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:5c6856dfe0e2537d
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: artic
+  amplicon_size: 400
+  version: v5.4.2
+  derived_from: sars-cov-2/artic/400/v5.3.2
+  aliases:
+  - ARTIC/V5.4.2
+  developers:
+  - ARTIC network
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.4.2
+  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v5.4.2
+  citations:
+  - https://doi.org/10.1101%2F2020.09.04.283077
+  license: CC-BY-SA-4.0
+  primer_checksum: primaschema:294136d77eb67db8
+  reference_checksum: primaschema:b1acd7163146bf17
+- name: eden
+  amplicon_size: 2500
+  version: v1.0.0
   organism: sars-cov-2
-  versions:
-  - name: artic-v1
-    display_name: artic-v1
-    version: v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v1
-  - name: artic-v2
-    display_name: artic-v2
-    version: v2
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v2
-  - name: artic-v3
-    display_name: artic-v3
-    version: v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v3
-  - name: artic-v4
-    display_name: artic-v4
-    version: v4
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4
-  - name: artic-v4.1
-    display_name: artic-v4.1
-    version: v4.1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
-  - name: artic-v5.0.0_400
-    display_name: artic-v5.0.0_400
-    version: v5.0.0_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.0.0_400
-  - name: artic-v5.1.0_400
-    display_name: artic-v5.1.0_400
-    version: v5.1.0_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.1.0_400
-  - name: artic-v5.2.0_1200
-    display_name: artic-v5.2.0_1200
-    version: v5.2.0_1200
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_1200
-  - name: artic-v5.2.0_400
-    display_name: artic-v5.2.0_400
-    version: v5.2.0_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.2.0_400
-  - name: artic-v5.3.2_400
-    display_name: artic-v5.3.2_400
-    version: v5.3.2_400
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.3.2_400
-- family: eden
-  organism: sars-cov-2
-  versions:
-  - name: eden-v1
-    display_name: eden-v1
-    version: v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
-- family: midnight
-  organism: sars-cov-2
-  versions:
-  - name: midnight-bccdc-v1
-    display_name: midnight-bccdc-v1
-    version: bccdc-v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v1
-  - name: midnight-bccdc-v2
-    display_name: midnight-bccdc-v2
-    version: bccdc-v2
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v2
-  - name: midnight-bccdc-v3
-    display_name: midnight-bccdc-v3
-    version: bccdc-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v3
-  - name: midnight-bccdc-v4
-    display_name: midnight-bccdc-v4
-    version: bccdc-v4
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
-  - name: midnight-ont-v3
-    display_name: midnight-ont-v3
-    version: ont-v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/ont-v3
-  - name: midnight-v1
-    display_name: midnight-v1
-    version: v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
-  - name: midnight-v2
-    display_name: midnight-v2
-    version: v2
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
-- family: nipah
-  organism: niv
-  versions:
-  - name: nipah-v1
-    display_name: nipah-v1
-    version: v1
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/niv/nipah/v1
-- family: varskip
-  organism: sars-cov-2
-  versions:
-  - name: varskip-vsl1a
-    display_name: VarSkip VSL1A
-    version: vsl1a
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vsl1a
-  - name: varskip-vss1a
-    display_name: VarSkip VSS1A
-    version: vss1a
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss1a
-  - name: varskip-vss2a
-    display_name: VarSkip VSS2A
-    version: vss2a
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
-  - name: varskip-vss2b
-    display_name: VarSkip VSS2B
-    version: vss2b
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/varskip/vss2a
-- family: yale
-  organism: mpxv
-  versions:
-  - name: yale-v3
-    display_name: yale-v3
-    version: v3
-    repository: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v3
+  aliases:
+  - sydney
+  developers:
+  - John-Sebastian Eden
+  - Eby Sim
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.befyjbpw
+  notes:
+  - Protocol includes addendum for ONT sequencing
+  license: CC-BY-4.0
+  primer_checksum: primaschema:55c9726eb1400cab
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: bccdc-v1.0.0
+  derived_from: midnight-v1
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  - John Tyson
+  - Tracy Lee
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  notes:
+  - Accomodates P.1
+  license: CC-BY-4.0
+  status: DEPRECATED
+  primer_checksum: primaschema:63730c2cad698b52
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: bccdc-v2.0.0
+  derived_from: bccdc-v1.0.0
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  - John Tyson
+  - Tracy Lee
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  notes:
+  - Accomodates BA.1
+  license: CC-BY-4.0
+  status: DEPRECATED
+  primer_checksum: primaschema:24946c8acfd9e9df
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: bccdc-v3.0.0
+  derived_from: bccdc-v2.0.0
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  - John Tyson
+  - Tracy Lee
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  license: CC-BY-4.0
+  status: DEPRECATED
+  primer_checksum: primaschema:76400a085952e90c
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: bccdc-v4.0.0
+  aliases:
+  - midnight-idt-v2
+  derived_from: bccdc-v3.0.0
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  - John Tyson
+  - Tracy Lee
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  notes:
+  - Accomodates Omicron BA.2
+  - IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel
+    v2"
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
+  license: CC-BY-4.0
+  status: DEPRECATED
+  primer_checksum: primaschema:fbdd06cb1617a6f9
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: ont-v3.0.0
+  aliases:
+  - Midnight-ONT/V3
+  derived_from: sars-cov-2/midnight/1200/v2
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  - Oxford Nanopore Technologies
+  vendors:
+  - organisation_name: Oxford Nanopore Technologies
+    kit_name: MRT001.30
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  notes:
+  - Accomodates Omicron BA.2
+  license: CC-BY-4.0
+  primer_checksum: primaschema:1969577706571a6e
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: v1.0.0
+  aliases:
+  - midnight-ont-v1
+  - Midnight-ONT/V1
+  - V1200
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  vendors:
+  - organisation_name: Oxford Nanopore Technologies
+    kit_name: MRT001.10
+  - organisation_name: Integrated DNA Technologies
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  license: CC-BY-4.0
+  status: DEPRECATED
+  primer_checksum: primaschema:5f4389079f1acc9c
+  reference_checksum: primaschema:b1acd7163146bf17
+- organism: sars-cov-2
+  name: midnight
+  amplicon_size: 1200
+  version: v2.0.0
+  aliases:
+  - midnight-ont-v2
+  - midnight-idt-v1
+  - Midnight-ONT/V2
+  derived_from: midnight-v1
+  developers:
+  - Nikki Freed
+  - Olin Silander
+  vendors:
+  - organisation_name: Oxford Nanopore Technologies
+    kit_name: MRT001.20
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v2
+  citations:
+  - https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+  notes:
+  - Accomodates Omicron BA.1 with single primer addition
+  - https://twitter.com/freed_nikki/status/1464477522448433156
+  - Not considered a new version by Freed et al. and IDT despite additional primer
+  license: CC-BY-4.0
+  status: DEPRECATED
+  primer_checksum: primaschema:eafcbe457b8a2345
+  reference_checksum: primaschema:b1acd7163146bf17

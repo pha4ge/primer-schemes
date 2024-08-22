@@ -1,0 +1,34 @@
+schema_version: 1.0.0a
+organism: mpxv
+name: yale
+amplicon_size: 2000
+version: v1.0.0
+developers:
+- Nicholas F.G. Chen
+- Luc Gagne
+- Matthew Doucette
+- Sandra Smole
+- Erika Buzby
+- Joshua Hall
+- Stephanie Ash
+- Rachel Harrington
+- Seana Cofsky
+- Selina Clancy
+- Curtis J Kapsak
+- Joel Sevinsky
+- Kevin Libuit
+- Mallery I Breban
+- Chrispin Chaguza
+- Nathan D. Grubaugh
+- Daniel J. Park
+- Glen R. Gallagher
+- Chantal B.F. Vogels
+vendors:
+- organisation_name: IDT
+  kit_name: Yale hMPXV Amplicon Panel
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/mpxv/yale/v4
+source_url: https://www.protocols.io/view/monkeypox-virus-multiplexed-pcr-amplicon-sequencin-5qpvob1nbl4o/v4
+citations:
+- https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4
+primer_checksum: primaschema:5a221a7da2cd3a8e
+reference_checksum: primaschema:81a4de73f5c665a2

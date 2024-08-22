@@ -1,0 +1,16 @@
+schema_version: 1.0.0a
+organism: mpxv
+name: erasmus
+amplicon_size: 2500
+version: v1.0.0
+developers:
+- Matthijs Welkers
+- Marcel Jonges
+- Anton van den Ouden
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
+source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v4.1.0
+citations:
+- https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
+license: CC-BY-SA-4.0
+primer_checksum: primaschema:9acd3f5ce5711ed2
+reference_checksum: primaschema:31ff1b123bbce197

@@ -2,10 +2,9 @@
 
 # Primer schemes 
 
-**🚨 Follow development of the version 1.0 specification in [the `v1a` branch of `primaschema`](https://github.com/pha4ge/primaschema/tree/v1a). Schemes in this repository will be migrated to the v1 specification first in branch `v1a` and then `main`.**
+**🚨 Migration to v1 scheme specification in progress**
 
-A versioned and schematised repository of tiling amplicon primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning and maximising the findability, accessibility, interoperability and reusability ([FAIRness](https://www.go-fair.org/fair-principles/)) of primer scheme definitions and associated sequencing data.
-
+A versioned and schematised community repository of tiled amplicon primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning and maximising the findability, accessibility, interoperability and reusability ([FAIRness](https://www.go-fair.org/fair-principles/)) of primer scheme definitions and associated sequencing data.
 
 
 ## Scheme specification
@@ -14,78 +13,49 @@ A scheme definition has three components:
 
 1.  A reference sequence ([`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/reference.fasta))
 2.  A seven column BED file of primer sequences & positions in reference coordinates ([`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/primer.bed))
-3.  A metadata file in YAML format adhering to [this schema](https://github.com/pha4ge/primer-schemes/blob/main/schema/primer_scheme.yml) ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/sars-cov-2/artic/v4.1/info.yml))
+3.  A metadata file in YAML format adhering to [this schema](https://github.com/pha4ge/primaschema/blob/main/src/primaschema/schema/info.yml) ([`info.yml`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/sars-cov-2/artic/400/v4.1.0/info.yml))
 
 
 
 ## Contributing new schemes
 
-We welcome contributions of new primer schemes! We're working to make this process easier, but in the meantime please either follow the instructions below and create a pull request, or else [open a GitHub issue](https://github.com/pha4ge/primer-schemes/issues) attaching or linking to a BED file so that we can help.
-
-### Instructions
-
-1. Choose an appropriate scheme name, e.g. `schemename-v1`, where `v1` indicates the version of the scheme. Avoid including the organism name in the scheme name if possible.
-
-2. Create a directory named `schemename-v1` containing a text file `info.yml` containing:
-   ```yaml
-   schema_version: 0.9.0
-   name: schemename-v1
-   organism: sars-cov-2
-   developers:
-   - person_name: Jane Doe
-     orcid: 1234-5678-9876-5432
-   amplicon_size: 1200
-   repository_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/schemename/v1
-   ```
-   
-3. Copy your scheme's BED file into this directory, naming it `primer.bed`
-
-4. Copy your scheme's reference sequence into this directory, naming it `reference.fasta` 
-5. Optionally run `primaschema build schemename-v1/` to create a finished scheme bundle  
-
-5. Either **open a pull request** adding your scheme directory (e.g. inside `sars-cov-2/schemename/v1`), or else **open a GitHub issue** attaching a zip file containing your scheme.
+*Coming soon*
 
 
 
 ## Tooling
 
-The companion tool [Primaschema](https://github.com/pha4ge/primaschema) can be used to validate scheme definitions and automatically checks and updates this repository via GitHub Actions. Primaschema adds primer and reference sequence checksums to `info.yml` at build time to help catch identical primer schemes. A six column scheme.bed file is also generated at build time for legacy compatibility.
+The repository's companion tool [Primaschema](https://github.com/pha4ge/primaschema) is used to automatically validate schemes in this repository and create plots, as well as generate a six column scheme.bed for legacy tool compatibility. It can also be installed standalone.
 
 
 
-## Documented schemes (24)
+## Scheme definitions
 
-### SARS-CoV-2 (22)
+### MPXV
 
- - `artic-v1`
- - `artic-v2`
- - `artic-v3`
- - `artic-v4`
- - `artic-v4.1`
- - `artic-v5.0.0_400`
- - `artic-v5.1.0_400`
- - `artic-v5.2.0_1200`
- - `artic-v5.2.0_400`
- - `artic-v5.3.2_400`
- - `eden-v1`
- - `midnight-bccdc-v1`
- - `midnight-bccdc-v2`
- - `midnight-bccdc-v3`
- - `midnight-bccdc-v4`
- - `midnight-ont-v3`
- - `midnight-v1`
- - `midnight-v2`
- - `varskip-vsl1a`
- - `varskip-vss1a`
- - `varskip-vss2a`
- - `varskip-vss2b`
+- `mpxv/yale/2000/v1.0.0`
+- `mpxv/erasmus/2500/v1.0.0`
 
+### NIV
 
+- `niv/nipah/400/v1.0.0`
 
-### MPXV (1)
+### SARS-CoV-2
 
-- `yale-v3`
-
-### NiV (1)
-
-- `nipah-v1`
+- `sars-cov-2/eden/2500/v1.0.0`
+- `sars-cov-2/midnight/1200/bccdc-v1.0.0`
+- `sars-cov-2/midnight/1200/bccdc-v3.0.0`
+- `sars-cov-2/midnight/1200/bccdc-v2.0.0`
+- `sars-cov-2/midnight/1200/bccdc-v4.0.0`
+- `sars-cov-2/midnight/1200/v2.0.0`
+- `sars-cov-2/midnight/1200/v1.0.0`
+- `sars-cov-2/midnight/1200/ont-v3.0.0`
+- `sars-cov-2/artic/400/v3.0.0`
+- `sars-cov-2/artic/400/v2.0.0`
+- `sars-cov-2/artic/400/v1.0.0`
+- `sars-cov-2/artic/400/v5.0.0`
+- `sars-cov-2/artic/400/v4.0.0`
+- `sars-cov-2/artic/400/v4.1.0`
+- `sars-cov-2/artic/400/v5.3.2`
+- `sars-cov-2/artic/400/v5.4.2`
+- `sars-cov-2/artic/400/v5.2.0`
