@@ -1,0 +1,19 @@
+schema_version: 1.0.0a
+organism: sars-cov-2
+name: midnight
+amplicon_size: 1200
+version: bccdc-v1.0.0
+derived_from: midnight-v1
+developers:
+- Nikki Freed
+- Olin Silander
+- John Tyson
+- Tracy Lee
+citations:
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+notes:
+- Accomodates P.1
+license: CC-BY-4.0
+status: DEPRECATED
+primer_checksum: primaschema:63730c2cad698b52
+reference_checksum: primaschema:b1acd7163146bf17

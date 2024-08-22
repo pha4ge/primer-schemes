@@ -1,0 +1,23 @@
+schema_version: 1.0.0a
+organism: sars-cov-2
+name: midnight
+amplicon_size: 1200
+version: ont-v3.0.0
+aliases:
+- Midnight-ONT/V3
+derived_from: sars-cov-2/midnight/1200/v2
+developers:
+- Nikki Freed
+- Olin Silander
+- Oxford Nanopore Technologies
+vendors:
+- organisation_name: Oxford Nanopore Technologies
+  kit_name: MRT001.30
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v3
+citations:
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+notes:
+- Accomodates Omicron BA.2
+license: CC-BY-4.0
+primer_checksum: primaschema:1969577706571a6e
+reference_checksum: primaschema:b1acd7163146bf17

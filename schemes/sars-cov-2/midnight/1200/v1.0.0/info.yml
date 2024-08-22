@@ -1,0 +1,23 @@
+schema_version: 1.0.0a
+organism: sars-cov-2
+name: midnight
+amplicon_size: 1200
+version: v1.0.0
+aliases:
+- midnight-ont-v1
+- Midnight-ONT/V1
+- V1200
+developers:
+- Nikki Freed
+- Olin Silander
+vendors:
+- organisation_name: Oxford Nanopore Technologies
+  kit_name: MRT001.10
+- organisation_name: Integrated DNA Technologies
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/v1
+citations:
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+license: CC-BY-4.0
+status: DEPRECATED
+primer_checksum: primaschema:5f4389079f1acc9c
+reference_checksum: primaschema:b1acd7163146bf17

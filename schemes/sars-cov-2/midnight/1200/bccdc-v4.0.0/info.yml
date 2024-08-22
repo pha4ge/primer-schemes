@@ -1,0 +1,24 @@
+schema_version: 1.0.0a
+organism: sars-cov-2
+name: midnight
+amplicon_size: 1200
+version: bccdc-v4.0.0
+aliases:
+- midnight-idt-v2
+derived_from: bccdc-v3.0.0
+developers:
+- Nikki Freed
+- Olin Silander
+- John Tyson
+- Tracy Lee
+citations:
+- https://dx.doi.org/10.17504/protocols.io.bwyppfvn
+notes:
+- Accomodates Omicron BA.2
+- IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel
+  v2"
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/midnight/bccdc-v4
+license: CC-BY-4.0
+status: DEPRECATED
+primer_checksum: primaschema:fbdd06cb1617a6f9
+reference_checksum: primaschema:b1acd7163146bf17

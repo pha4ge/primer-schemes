@@ -1,0 +1,17 @@
+schema_version: 1.0.0a
+organism: sars-cov-2
+name: artic
+amplicon_size: 400
+version: v5.4.2
+derived_from: sars-cov-2/artic/400/v5.3.2
+aliases:
+- ARTIC/V5.4.2
+developers:
+- ARTIC network
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v5.4.2
+source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v5.4.2
+citations:
+- https://doi.org/10.1101%2F2020.09.04.283077
+license: CC-BY-SA-4.0
+primer_checksum: primaschema:294136d77eb67db8
+reference_checksum: primaschema:b1acd7163146bf17

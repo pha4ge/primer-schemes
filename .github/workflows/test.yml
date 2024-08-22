@@ -20,6 +20,6 @@ jobs:
           python -m pip install ./primaschema
       - name: Validate all schemes
         run: |
-          primaschema validate-recursive ./
+          primaschema validate --recursive schemes
         env:
-          PRIMER_SCHEMES_PATH: "./"
+          PRIMASCHEMA_ROOT_PATH: ${{ github.workspace }}/primaschema
