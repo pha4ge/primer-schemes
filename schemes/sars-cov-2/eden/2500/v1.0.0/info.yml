@@ -1,14 +1,14 @@
 schema_version: 1.0.0a
+organism: sars-cov-2
 name: eden
 amplicon_size: 2500
 version: v1.0.0
-organism: sars-cov-2
 aliases:
 - sydney
 developers:
 - John-Sebastian Eden
 - Eby Sim
-definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
+definition_url: https://github.com/pha4ge/primer-schemes/blob/main/schemes/sars-cov-2/eden/2500/v1.0.0
 citations:
 - https://dx.doi.org/10.17504/protocols.io.befyjbpw
 notes:

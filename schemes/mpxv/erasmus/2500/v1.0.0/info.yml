@@ -7,8 +7,7 @@ developers:
 - Matthijs Welkers
 - Marcel Jonges
 - Anton van den Ouden
-definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
-source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v4.1.0
+definition_url: https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/erasmus/2500/v1.0.0
 citations:
 - https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
 license: CC-BY-SA-4.0

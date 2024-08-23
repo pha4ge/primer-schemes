@@ -24,13 +24,13 @@ schemes:
   - Matthijs Welkers
   - Marcel Jonges
   - Anton van den Ouden
-  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/artic/v4.1
-  source_url: https://github.com/quick-lab/primerschemes/tree/main/primerschemes/artic-sars-cov-2/400/v4.1.0
+  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/erasmus/2500/v1.0.0
+  source_url: https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
   citations:
   - https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
   license: CC-BY-SA-4.0
   primer_checksum: primaschema:9acd3f5ce5711ed2
-  reference_checksum: primaschema:31ff1b123bbce197
+  reference_checksum: primaschema:17cbcde0cfff7158
 - organism: mpxv
   name: yale
   amplicon_size: 2000
@@ -236,16 +236,16 @@ schemes:
   license: CC-BY-SA-4.0
   primer_checksum: primaschema:294136d77eb67db8
   reference_checksum: primaschema:b1acd7163146bf17
-- name: eden
+- organism: sars-cov-2
+  name: eden
   amplicon_size: 2500
   version: v1.0.0
-  organism: sars-cov-2
   aliases:
   - sydney
   developers:
   - John-Sebastian Eden
   - Eby Sim
-  definition_url: https://github.com/pha4ge/primer-schemes/tree/main/sars-cov-2/eden/v1
+  definition_url: https://github.com/pha4ge/primer-schemes/blob/main/schemes/sars-cov-2/eden/2500/v1.0.0
   citations:
   - https://dx.doi.org/10.17504/protocols.io.befyjbpw
   notes:
