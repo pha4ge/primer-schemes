@@ -1,6 +1,8 @@
 schema_version: 1.0.0a
 organism: mpxv
-name: erasmus
+name: rigshospitalet
+aliases:
+  - erasmus
 amplicon_size: 2500
 version: v1.0.0
 developers:
