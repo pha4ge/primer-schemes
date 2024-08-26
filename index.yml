@@ -18,14 +18,16 @@ organisms:
 schemes:
 - organism: mpxv
   name: rigshospitalet
+  aliases:
+  - erasmus
   amplicon_size: 2500
   version: v1.0.0
   developers:
+  - Martin Schou Pedersen
   - Matthijs Welkers
   - Marcel Jonges
   - Anton van den Ouden
   definition_url: https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/rigshospitalet/2500/v1.0.0
-  source_url: https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
   citations:
   - https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5
   license: CC-BY-SA-4.0
