@@ -54,7 +54,7 @@ A scheme definition comprises *i)* a reference sequence (`reference.fasta`), *ii
 ### MPXV
 
 - `mpxv/yale/2000/v1.0.0`
-- `mpxv/erasmus/2500/v1.0.0`
+- `mpxv/rigshospitalet/2500/v1.0.0`
 
 ### NIV
 
