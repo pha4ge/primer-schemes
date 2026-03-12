@@ -78,8 +78,8 @@
             "kit_name": "Yale hMPXV Amplicon Panel"
         }
     ],
-    "primer_checksum": "primaschema:bed:a0049d0a3403be46",
-    "primer_file_sha256": "sha256:6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe",
-    "reference_checksum": "primaschema:ref:a98c4dee0d139679",
-    "reference_file_sha256": "sha256:d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"
+    "checksums": {
+        "primer_sha256": "6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe",
+        "reference_sha256": "d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"
+    }
 }

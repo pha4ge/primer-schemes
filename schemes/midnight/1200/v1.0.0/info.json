@@ -35,8 +35,8 @@
             "organisation_name": "Integrated DNA Technologies"
         }
     ],
-    "primer_checksum": "primaschema:bed:b900ecae45957c5c",
-    "primer_file_sha256": "sha256:7a9bac73b1eb9244e29788247f1ba1fa0d40e0f478a97e72cd3ab4fe745677e0",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "checksums": {
+        "primer_sha256": "7a9bac73b1eb9244e29788247f1ba1fa0d40e0f478a97e72cd3ab4fe745677e0",
+        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    }
 }

@@ -30,8 +30,8 @@
     "citations": [
         "https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5"
     ],
-    "primer_checksum": "primaschema:bed:937046042306d5cc",
-    "primer_file_sha256": "sha256:491b706b69f776d4733c2be0f61ccc89e69164d7ccc4a0f0aedd7652d047fe24",
-    "reference_checksum": "primaschema:ref:a038d0277ea6ab05",
-    "reference_file_sha256": "sha256:2415f80de820bcbffddebbb919e8c23e14496932555f73ca5f0705b752b86966"
+    "checksums": {
+        "primer_sha256": "491b706b69f776d4733c2be0f61ccc89e69164d7ccc4a0f0aedd7652d047fe24",
+        "reference_sha256": "2415f80de820bcbffddebbb919e8c23e14496932555f73ca5f0705b752b86966"
+    }
 }

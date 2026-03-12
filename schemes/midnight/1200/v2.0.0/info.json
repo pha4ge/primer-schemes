@@ -38,8 +38,8 @@
             "kit_name": "MRT001.20"
         }
     ],
-    "primer_checksum": "primaschema:bed:d4013ab2aca6b292",
-    "primer_file_sha256": "sha256:e48d23b772a7c89826b74efcd55ab07ccc586ad95ee13260ff7772db1320df7a",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "checksums": {
+        "primer_sha256": "e48d23b772a7c89826b74efcd55ab07ccc586ad95ee13260ff7772db1320df7a",
+        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    }
 }

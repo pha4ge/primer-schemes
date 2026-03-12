@@ -28,8 +28,8 @@
     "citations": [
         "https://dx.doi.org/10.17504/protocols.io.bwyppfvn"
     ],
-    "primer_checksum": "primaschema:bed:e3dbcac2ea506342",
-    "primer_file_sha256": "sha256:1a0ee6df04ccb4752800908833014022bca52386635a46832c7b5c3e847700f1",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "checksums": {
+        "primer_sha256": "1a0ee6df04ccb4752800908833014022bca52386635a46832c7b5c3e847700f1",
+        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    }
 }

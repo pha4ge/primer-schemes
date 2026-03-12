@@ -27,8 +27,8 @@
     "notes": [
         "Protocol includes addendum for ONT sequencing"
     ],
-    "primer_checksum": "primaschema:bed:26fc59b9ca5c4b8a",
-    "primer_file_sha256": "sha256:3816cc533ef389761caedb13b9629a665fd9131af61227957c32289050067e4b",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    "checksums": {
+        "primer_sha256": "3816cc533ef389761caedb13b9629a665fd9131af61227957c32289050067e4b",
+        "reference_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    }
 }

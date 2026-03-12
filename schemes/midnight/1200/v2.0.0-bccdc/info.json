@@ -31,8 +31,8 @@
     "notes": [
         "Accomodates BA.1"
     ],
-    "primer_checksum": "primaschema:bed:5e53a595adbfa75b",
-    "primer_file_sha256": "sha256:d3b7c27c01c87a604a9648b180db25b170ec2629e8395a4d698bf5965f6a302e",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "checksums": {
+        "primer_sha256": "d3b7c27c01c87a604a9648b180db25b170ec2629e8395a4d698bf5965f6a302e",
+        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    }
 }

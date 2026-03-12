@@ -37,8 +37,8 @@
             "kit_name": "MRT001.30"
         }
     ],
-    "primer_checksum": "primaschema:bed:c34e6683815812c1",
-    "primer_file_sha256": "sha256:b6d7b3a05988aad424b2a0de3bf70e0cc5762cd56efe813b48d894dacc15c657",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "checksums": {
+        "primer_sha256": "b6d7b3a05988aad424b2a0de3bf70e0cc5762cd56efe813b48d894dacc15c657",
+        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    }
 }

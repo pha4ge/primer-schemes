@@ -22,8 +22,8 @@
     "citations": [
         "https://doi.org/10.1101%2F2020.09.04.283077"
     ],
-    "primer_checksum": "primaschema:bed:80ee08c1d15a2921",
-    "primer_file_sha256": "sha256:f13eece08d84f9cb6ebec9735746779bb5d12167aac8b47448627d1faa75eea8",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    "checksums": {
+        "primer_sha256": "f13eece08d84f9cb6ebec9735746779bb5d12167aac8b47448627d1faa75eea8",
+        "reference_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    }
 }

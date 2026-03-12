@@ -32,8 +32,8 @@
             "home_page": "https://eurofinsgenomics.com"
         }
     ],
-    "primer_checksum": "primaschema:bed:57041b9b17592d85",
-    "primer_file_sha256": "sha256:947142cfa7909fba37b55db3ce9a82aad298db26ea448fae0b8d7c6233b52ed8",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    "checksums": {
+        "primer_sha256": "947142cfa7909fba37b55db3ce9a82aad298db26ea448fae0b8d7c6233b52ed8",
+        "reference_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    }
 }

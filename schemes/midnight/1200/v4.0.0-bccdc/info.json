@@ -35,8 +35,8 @@
         "Accomodates Omicron BA.2",
         "IDT calls this the \"-Midnight-1200 Amplicon Panel\" and \"Midnight Amplicon Panel v2\""
     ],
-    "primer_checksum": "primaschema:bed:9d581c5d6a74c274",
-    "primer_file_sha256": "sha256:277fb80daf5d462369069508237a400677079c4c554e23506b5915ace9570aff",
-    "reference_checksum": "primaschema:ref:21c16fc69acb3b9e",
-    "reference_file_sha256": "sha256:4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "checksums": {
+        "primer_sha256": "277fb80daf5d462369069508237a400677079c4c554e23506b5915ace9570aff",
+        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    }
 }
