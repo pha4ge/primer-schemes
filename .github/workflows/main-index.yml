@@ -1,0 +1,40 @@
+name: Build Index on Main
+
+on:
+  push:
+    branches: [main]
+    paths: "schemes/**"
+
+  workflow_dispatch:
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+          cache-dependency-glob: ""
+
+      - name: Install primaschema
+        run: uv tool install primaschema
+      - name: Build index
+        run: |
+          primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > index.json
+
+      - name: Commit index.json if changed
+        run: |
+          if git diff --quiet -- index.json; then
+            echo "index.json unchanged"
+            exit 0
+          fi
+          git config user.name "primer-bot"
+          git config user.email "primer-bot@users.noreply.github.com"
+          git add index.json
+          git commit -m "auto update index.json"
+          git push

@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "name": "eden",
+    "amplicon_size": 2500,
+    "version": "v1.0.0",
+    "contributors": [
+        {
+            "name": "John-Sebastian Eden"
+        },
+        {
+            "name": "Eby Sim"
+        }
+    ],
+    "target_organisms": [
+        {
+            "common_name": "sars-cov-2"
+        }
+    ],
+    "aliases": [
+        "sydney"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "status": "DRAFT",
+    "citations": [
+        "https://dx.doi.org/10.17504/protocols.io.befyjbpw"
+    ],
+    "notes": [
+        "Protocol includes addendum for ONT sequencing"
+    ],
+    "checksums": {
+        "primer_sha256": "3816cc533ef389761caedb13b9629a665fd9131af61227957c32289050067e4b",
+        "reference_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    }
+}

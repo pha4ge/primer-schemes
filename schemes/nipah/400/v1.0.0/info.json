@@ -1,0 +1,22 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "name": "nipah",
+    "amplicon_size": 400,
+    "version": "v1.0.0",
+    "contributors": [
+        {
+            "name": "ARTIC network"
+        }
+    ],
+    "target_organisms": [
+        {
+            "common_name": "niv"
+        }
+    ],
+    "license": "CC-BY-SA-4.0",
+    "status": "DRAFT",
+    "checksums": {
+        "primer_sha256": "36a2c996015a04344dc700142a43586d84c11b7c27dee62e25079e08f14e6e43",
+        "reference_sha256": "815c8701e321c2a488e43d70300d0dfbd0a8deb088e784d23935cabf54892a3d"
+    }
+}

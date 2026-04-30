@@ -1,0 +1,27 @@
+name: PR Validate Schemes
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+          cache-dependency-glob: ""
+
+      - name: Install primaschema
+        run: uv tool install primaschema
+
+      - name: Validate schemes
+        run: |
+          primaschema validate --all --strict --path ./schemes
+
+      - name: Build index (check only)
+        run: |
+          primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > _index.json

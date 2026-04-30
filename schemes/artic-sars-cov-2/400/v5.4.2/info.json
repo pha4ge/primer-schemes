@@ -1,0 +1,29 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "name": "artic-sars-cov-2",
+    "amplicon_size": 400,
+    "version": "v5.4.2",
+    "contributors": [
+        {
+            "name": "ARTIC network"
+        }
+    ],
+    "target_organisms": [
+        {
+            "common_name": "sars-cov-2"
+        }
+    ],
+    "aliases": [
+        "ARTIC/V5.4.2"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "status": "DRAFT",
+    "derived_from": "sars-cov-2/artic/400/v5.3.2",
+    "citations": [
+        "https://doi.org/10.1101%2F2020.09.04.283077"
+    ],
+    "checksums": {
+        "primer_sha256": "6571cffa29dc9c2a41053e9c3a6eb6bbffac8b20449e241099564b74b7455432",
+        "reference_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+    }
+}
