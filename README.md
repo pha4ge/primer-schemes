@@ -1,8 +1,6 @@
-[![Tests](https://github.com/pha4ge/primer-schemes/actions/workflows/test.yml/badge.svg)](https://github.com/pha4ge/primer-schemes/actions/workflows/test.yml)
-
 # Primer schemes
 
-A versioned and schematised community repository of tiled amplicon primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning and maximising the findability, accessibility, interoperability and reusability ([FAIRness](https://www.go-fair.org/fair-principles/)) of primer schemes and associated sequencing data. An example of a canonical primer scheme name is `artic/400/v4.1.0`.
+A versioned and schematised community repository of tiled amplicon primer scheme definitions (created with e.g. [Primal Scheme](https://primalscheme.com)) for pathogen sequencing, made with the objective of eliminating ambiguity in scheme naming and versioning and maximising the findability, accessibility, interoperability and reusability ([FAIRness](https://www.go-fair.org/fair-principles/)) of primer schemes and associated sequencing data. An example of a canonical primer scheme name is `artic-sars-cov-2/400/v4.1.0`.
 
 The repository includes a top-level machine readable [index](https://github.com/pha4ge/primer-schemes/blob/main/index.json) of available primer scheme definitions.
 
@@ -12,9 +10,9 @@ The repository includes a top-level machine readable [index](https://github.com/
 
 A scheme definition has three components:
 
-1.  A reference sequence (e.g. [`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic/400/v4.1.0/reference.fasta))
-2.  A seven column Primal Scheme-like BED file of primer sequences & coordinates (e.g. [`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic/400/v4.1.0/primer.bed))
-3.  A metadata file in JSON format adhering to a [schema](https://github.com/pha4ge/primaschema/blob/main/src/primaschema/schema/info.schema.json) (e.g. [`info.json`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic/400/v4.1.0/info.json))
+1.  A reference sequence (e.g. [`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/reference.fasta))
+2.  A seven column Primal Scheme-like BED file of primer sequences & coordinates (e.g. [`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/primer.bed))
+3.  A metadata file in JSON format adhering to a [schema](https://github.com/pha4ge/primaschema/blob/main/src/primaschema/schema/info.yml) (e.g. [`info.json`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/info.json))
 
 
 
@@ -28,11 +26,11 @@ The repository's companion tool [Primaschema](https://github.com/pha4ge/primasch
 
 We encourage contributions of any schemes the others might wish to use, especially if sequencing data has been or will be deposited publicly. We're working to make this process easier, but in the meantime please either follow the instructions below to send us a draft scheme, or create a pull request using GitHub if comfortable doing so.
 
-A scheme definition comprises *i)* a reference sequence (`reference.fasta`), *ii)* a BED file of primer sequences & reference coordinates (`primer.bed`), and *iii)*, a metadata file in JSON format adhering to [this schema](https://github.com/pha4ge/primaschema/blob/main/src/primaschema/schema/info.schema.json), called `info.json`. If you've created a scheme you probably already have i) and ii), and need to make `info.json`. It's easiest to begin by modifying a copy of an existing `info.json` [such as this one](https://github.com/pha4ge/primer-schemes/blob/main/schemes/eden/2500/v1.0.0/info.json).
+A scheme definition comprises *i)* a reference sequence (`reference.fasta`), *ii)* a BED file of primer sequences & reference coordinates (`primer.bed`), and *iii)*, a metadata file in JSON format adhering to [this schema](https://github.com/pha4ge/primaschema/blob/main/src/primaschema/schema/info.yml), called `info.json`. If you've created a scheme you probably already have i) and ii), and need to make `info.json`. It's easiest to begin by modifying a copy of an existing `info.json` [such as this one](https://github.com/pha4ge/primer-schemes/blob/main/schemes/eden/2500/v1.0.0/info.json).
 
 1. Check that the `target_organisms` field in your scheme's `info.json` references the correct pathogen. If there are no existing schemes for the target pathogen, please [open a GitHub issue](https://github.com/pha4ge/primer-schemes/issues) to request it be added.
-2. Choose a scheme name and version, e.g `midnight` and `v1.0.0`. The name should not include special characters except hyphens.
-    - If adding a new scheme, choose any name, preferably not referencing the organism name.
+2. Choose a scheme name and version, e.g `midnight-sars-cov-2` and `v1.0.0`. The name should not include special characters except hyphens.
+    - If adding a new scheme, choose any name.
     - If updating your existing scheme, keep the same name and update the version:
       - Versions must take the form `v{major}.{minor}.{patch}`, optionally followed by a hyphenated suffix (e.g. `v3.0.0-ont`)
       - For primer changes beyond adding primers, increment the *major* version
@@ -52,7 +50,7 @@ A scheme definition comprises *i)* a reference sequence (`reference.fasta`), *ii
 
 ### MPXV
 
-- `yale/2000/v1.0.0`
+- `yale-mpox/2000/v1.0.0`
 - `rigshospitalet/2500/v1.0.0`
 
 ### NiV
@@ -62,19 +60,19 @@ A scheme definition comprises *i)* a reference sequence (`reference.fasta`), *ii
 ### SARS-CoV-2
 
 - `eden/2500/v1.0.0`
-- `midnight/1200/v1.0.0`
-- `midnight/1200/v1.0.0-bccdc`
-- `midnight/1200/v2.0.0`
-- `midnight/1200/v2.0.0-bccdc`
-- `midnight/1200/v3.0.0-bccdc`
-- `midnight/1200/v3.0.0-ont`
-- `midnight/1200/v4.0.0-bccdc`
-- `artic/400/v1.0.0`
-- `artic/400/v2.0.0`
-- `artic/400/v3.0.0`
-- `artic/400/v4.0.0`
-- `artic/400/v4.1.0`
-- `artic/400/v5.0.0`
-- `artic/400/v5.2.0`
-- `artic/400/v5.3.2`
-- `artic/400/v5.4.2`
+- `midnight-sars-cov-2/1200/v1.0.0`
+- `midnight-sars-cov-2/1200/v1.0.0-bccdc`
+- `midnight-sars-cov-2/1200/v2.0.0`
+- `midnight-sars-cov-2/1200/v2.0.0-bccdc`
+- `midnight-sars-cov-2/1200/v3.0.0-bccdc`
+- `midnight-sars-cov-2/1200/v3.0.0-ont`
+- `midnight-sars-cov-2/1200/v4.0.0-bccdc`
+- `artic-sars-cov-2/400/v1.0.0`
+- `artic-sars-cov-2/400/v2.0.0`
+- `artic-sars-cov-2/400/v3.0.0`
+- `artic-sars-cov-2/400/v4.0.0`
+- `artic-sars-cov-2/400/v4.1.0`
+- `artic-sars-cov-2/400/v5.0.0`
+- `artic-sars-cov-2/400/v5.2.0`
+- `artic-sars-cov-2/400/v5.3.2`
+- `artic-sars-cov-2/400/v5.4.2`
