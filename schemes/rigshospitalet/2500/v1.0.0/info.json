@@ -1,37 +1,38 @@
 {
     "schema_version": "1.0.0-alpha",
-    "name": "rigshospitalet",
+    "primer_scheme_name": "rigshospitalet",
     "amplicon_size": 2500,
-    "version": "v1.0.0",
-    "contributors": [
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "rigshospitalet/2500/v1.0.0",
+    "primer_scheme_contributor": [
         {
-            "name": "Martin Schou Pedersen"
+            "primer_scheme_contributor_name": "Martin Schou Pedersen"
         },
         {
-            "name": "Matthijs Welkers"
+            "primer_scheme_contributor_name": "Matthijs Welkers"
         },
         {
-            "name": "Marcel Jonges"
+            "primer_scheme_contributor_name": "Marcel Jonges"
         },
         {
-            "name": "Anton van den Ouden"
+            "primer_scheme_contributor_name": "Anton van den Ouden"
         }
     ],
-    "target_organisms": [
+    "primer_scheme_target_organism": [
         {
-            "common_name": "mpxv"
+            "primer_scheme_target_organism_name": "mpxv"
         }
     ],
-    "aliases": [
+    "primer_scheme_identifier_alias": [
         "erasmus"
     ],
-    "license": "CC-BY-SA-4.0",
-    "status": "DRAFT",
-    "citations": [
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "citation": [
         "https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5"
     ],
-    "checksums": {
-        "primer_sha256": "491b706b69f776d4733c2be0f61ccc89e69164d7ccc4a0f0aedd7652d047fe24",
-        "reference_sha256": "2415f80de820bcbffddebbb919e8c23e14496932555f73ca5f0705b752b86966"
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "491b706b69f776d4733c2be0f61ccc89e69164d7ccc4a0f0aedd7652d047fe24",
+        "reference_sequence_sha256": "2415f80de820bcbffddebbb919e8c23e14496932555f73ca5f0705b752b86966"
     }
 }

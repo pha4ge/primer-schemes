@@ -1,1 +1,636 @@
-{"primerschemes":{"yale-mpox":{"2000":{"v1.0.0":{"name":"yale-mpox","amplicon_size":2000,"version":"v1.0.0","contributors":[{"name":"Nicholas F.G. Chen"},{"name":"Luc Gagne"},{"name":"Matthew Doucette"},{"name":"Sandra Smole"},{"name":"Erika Buzby"},{"name":"Joshua Hall"},{"name":"Stephanie Ash"},{"name":"Rachel Harrington"},{"name":"Seana Cofsky"},{"name":"Selina Clancy"},{"name":"Curtis J Kapsak"},{"name":"Joel Sevinsky"},{"name":"Kevin Libuit"},{"name":"Mallery I Breban"},{"name":"Chrispin Chaguza"},{"name":"Nathan D. Grubaugh"},{"name":"Daniel J. Park"},{"name":"Glen R. Gallagher"},{"name":"Chantal B.F. Vogels"}],"target_organisms":[{"common_name":"mpxv"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"checksums":{"primer_sha256":"6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe","reference_sha256":"d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/yale-mpox/2000/v1.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/yale-mpox/2000/v1.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/yale-mpox/2000/v1.0.0/info.json"}}},"nipah":{"400":{"v1.0.0":{"name":"nipah","amplicon_size":400,"version":"v1.0.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"niv"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"checksums":{"primer_sha256":"36a2c996015a04344dc700142a43586d84c11b7c27dee62e25079e08f14e6e43","reference_sha256":"815c8701e321c2a488e43d70300d0dfbd0a8deb088e784d23935cabf54892a3d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/nipah/400/v1.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/nipah/400/v1.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/nipah/400/v1.0.0/info.json"}}},"midnight-sars-cov-2":{"1200":{"v2.0.0-bccdc":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v2.0.0-bccdc","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"},{"name":"John Tyson"},{"name":"Tracy Lee"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"bccdc-v1.0.0","checksums":{"primer_sha256":"d3b7c27c01c87a604a9648b180db25b170ec2629e8395a4d698bf5965f6a302e","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0-bccdc/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0-bccdc/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0-bccdc/info.json"},"v1.0.0-bccdc":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v1.0.0-bccdc","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"},{"name":"John Tyson"},{"name":"Tracy Lee"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"midnight-v1","checksums":{"primer_sha256":"ff7fd0957777aa991e5ba4273e0c3cdea8dd091b0cb1078dc0fd23aca5a90634","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0-bccdc/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0-bccdc/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0-bccdc/info.json"},"v1.0.0":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v1.0.0","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"checksums":{"primer_sha256":"7a9bac73b1eb9244e29788247f1ba1fa0d40e0f478a97e72cd3ab4fe745677e0","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0/info.json"},"v4.0.0-bccdc":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v4.0.0-bccdc","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"},{"name":"John Tyson"},{"name":"Tracy Lee"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"bccdc-v3.0.0","checksums":{"primer_sha256":"277fb80daf5d462369069508237a400677079c4c554e23506b5915ace9570aff","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v4.0.0-bccdc/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v4.0.0-bccdc/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v4.0.0-bccdc/info.json"},"v3.0.0-ont":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v3.0.0-ont","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"},{"name":"Oxford Nanopore Technologies"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"derived_from":"sars-cov-2/midnight/1200/v2","checksums":{"primer_sha256":"b6d7b3a05988aad424b2a0de3bf70e0cc5762cd56efe813b48d894dacc15c657","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-ont/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-ont/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-ont/info.json"},"v3.0.0-bccdc":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v3.0.0-bccdc","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"},{"name":"John Tyson"},{"name":"Tracy Lee"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"bccdc-v2.0.0","checksums":{"primer_sha256":"1a0ee6df04ccb4752800908833014022bca52386635a46832c7b5c3e847700f1","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-bccdc/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-bccdc/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-bccdc/info.json"},"v2.0.0":{"name":"midnight-sars-cov-2","amplicon_size":1200,"version":"v2.0.0","contributors":[{"name":"Nikki Freed"},{"name":"Olin Silander"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"midnight-v1","checksums":{"primer_sha256":"e48d23b772a7c89826b74efcd55ab07ccc586ad95ee13260ff7772db1320df7a","reference_sha256":"4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0/info.json"}}},"artic-sars-cov-2":{"400":{"v5.3.2":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v5.3.2","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"sars-cov-2/artic/400/v5.2.0","checksums":{"primer_sha256":"f13eece08d84f9cb6ebec9735746779bb5d12167aac8b47448627d1faa75eea8","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.3.2/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.3.2/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.3.2/info.json"},"v4.1.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v4.1.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"derived_from":"sars-cov-2/artic/400/v4.0.0","checksums":{"primer_sha256":"4c9d546713405d74a558ef50094e2bc3aaadc60644b3a16ce14a178d5d20284a","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v4.1.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v4.1.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v4.1.0/info.json"},"v4.0.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v4.0.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"derived_from":"sars-cov-2/artic/400/v3.0.0","checksums":{"primer_sha256":"947142cfa7909fba37b55db3ce9a82aad298db26ea448fae0b8d7c6233b52ed8","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v4.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v4.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v4.0.0/info.json"},"v1.0.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v1.0.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"checksums":{"primer_sha256":"6f3e3899745e87087184550effda4d958d258c31d12d2832f6050c9dbb13271a","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v1.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v1.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v1.0.0/info.json"},"v5.0.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v5.0.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"derived_from":"sars-cov-2/artic/400/v4.1.0","checksums":{"primer_sha256":"f3154104f2ac9d94bc33d59067e1b00e0765a11c19dee9546b6596ae18b805f3","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.0.0/info.json"},"v5.4.2":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v5.4.2","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"derived_from":"sars-cov-2/artic/400/v5.3.2","checksums":{"primer_sha256":"6571cffa29dc9c2a41053e9c3a6eb6bbffac8b20449e241099564b74b7455432","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.4.2/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.4.2/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.4.2/info.json"},"v3.0.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v3.0.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"sars-cov-2/artic/400/v2.0.0","checksums":{"primer_sha256":"99072afd2bdadda154f88b1fd2284525175648371fa1098c82ef67ff9b928f13","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v3.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v3.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v3.0.0/info.json"},"v2.0.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v2.0.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DEPRECATED","tags":[],"derived_from":"sars-cov-2/artic/400/v1.0.0","checksums":{"primer_sha256":"ebbdfb9b21607c24e4bcad65a8fe86f9dee7b5c4f4e308f3d5e45eed925b7f32","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v2.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v2.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v2.0.0/info.json"},"v5.2.0":{"name":"artic-sars-cov-2","amplicon_size":400,"version":"v5.2.0","contributors":[{"name":"ARTIC network"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"derived_from":"sars-cov-2/artic/400/v5.1.0","checksums":{"primer_sha256":"5ff635af76ea117b112571cc456c544f96a3dbea782c773184da12505f11c75d","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.2.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.2.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/artic-sars-cov-2/400/v5.2.0/info.json"}}},"rigshospitalet":{"2500":{"v1.0.0":{"name":"rigshospitalet","amplicon_size":2500,"version":"v1.0.0","contributors":[{"name":"Martin Schou Pedersen"},{"name":"Matthijs Welkers"},{"name":"Marcel Jonges"},{"name":"Anton van den Ouden"}],"target_organisms":[{"common_name":"mpxv"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"checksums":{"primer_sha256":"491b706b69f776d4733c2be0f61ccc89e69164d7ccc4a0f0aedd7652d047fe24","reference_sha256":"2415f80de820bcbffddebbb919e8c23e14496932555f73ca5f0705b752b86966"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/rigshospitalet/2500/v1.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/rigshospitalet/2500/v1.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/rigshospitalet/2500/v1.0.0/info.json"}}},"eden":{"2500":{"v1.0.0":{"name":"eden","amplicon_size":2500,"version":"v1.0.0","contributors":[{"name":"John-Sebastian Eden"},{"name":"Eby Sim"}],"target_organisms":[{"common_name":"sars-cov-2"}],"license":"CC-BY-SA-4.0","status":"DRAFT","tags":[],"checksums":{"primer_sha256":"3816cc533ef389761caedb13b9629a665fd9131af61227957c32289050067e4b","reference_sha256":"b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"},"primer_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/eden/2500/v1.0.0/primer.bed","reference_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/eden/2500/v1.0.0/reference.fasta","info_file_url":"https://raw.githubusercontent.com/ChrisgKent/pha4ge-primer-schemes/main/schemes/eden/2500/v1.0.0/info.json"}}}}}
+{
+  "primerschemes": {
+    "eden": {
+      "2500": {
+        "v1.0.0": {
+          "primer_scheme_name": "eden",
+          "amplicon_size": 2500,
+          "primer_scheme_version": "v1.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "John-Sebastian Eden"
+            },
+            {
+              "primer_scheme_contributor_name": "Eby Sim"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "3816cc533ef389761caedb13b9629a665fd9131af61227957c32289050067e4b",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/eden/2500/v1.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/eden/2500/v1.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/eden/2500/v1.0.0/info.json"
+        }
+      }
+    },
+    "artic-sars-cov-2": {
+      "400": {
+        "v3.0.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v3.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v2.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "99072afd2bdadda154f88b1fd2284525175648371fa1098c82ef67ff9b928f13",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v3.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v3.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v3.0.0/info.json"
+        },
+        "v2.0.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v2.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v1.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "ebbdfb9b21607c24e4bcad65a8fe86f9dee7b5c4f4e308f3d5e45eed925b7f32",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v2.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v2.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v2.0.0/info.json"
+        },
+        "v1.0.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v1.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "6f3e3899745e87087184550effda4d958d258c31d12d2832f6050c9dbb13271a",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v1.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v1.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v1.0.0/info.json"
+        },
+        "v5.0.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v5.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v4.1.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "f3154104f2ac9d94bc33d59067e1b00e0765a11c19dee9546b6596ae18b805f3",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.0.0/info.json"
+        },
+        "v4.0.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v4.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v3.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "947142cfa7909fba37b55db3ce9a82aad298db26ea448fae0b8d7c6233b52ed8",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v4.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v4.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v4.0.0/info.json"
+        },
+        "v4.1.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v4.1.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v4.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "4c9d546713405d74a558ef50094e2bc3aaadc60644b3a16ce14a178d5d20284a",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v4.1.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v4.1.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v4.1.0/info.json"
+        },
+        "v5.3.2": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v5.3.2",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v5.2.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "f13eece08d84f9cb6ebec9735746779bb5d12167aac8b47448627d1faa75eea8",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.3.2/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.3.2/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.3.2/info.json"
+        },
+        "v5.4.2": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v5.4.2",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v5.3.2",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "6571cffa29dc9c2a41053e9c3a6eb6bbffac8b20449e241099564b74b7455432",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.4.2/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.4.2/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.4.2/info.json"
+        },
+        "v5.2.0": {
+          "primer_scheme_name": "artic-sars-cov-2",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v5.2.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_derived_from": "artic-sars-cov-2/400/v5.1.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "5ff635af76ea117b112571cc456c544f96a3dbea782c773184da12505f11c75d",
+            "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.2.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.2.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/artic-sars-cov-2/400/v5.2.0/info.json"
+        }
+      }
+    },
+    "nipah": {
+      "400": {
+        "v1.0.0": {
+          "primer_scheme_name": "nipah",
+          "amplicon_size": 400,
+          "primer_scheme_version": "v1.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "ARTIC network"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "niv"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "36a2c996015a04344dc700142a43586d84c11b7c27dee62e25079e08f14e6e43",
+            "reference_sequence_sha256": "815c8701e321c2a488e43d70300d0dfbd0a8deb088e784d23935cabf54892a3d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/nipah/400/v1.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/nipah/400/v1.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/nipah/400/v1.0.0/info.json"
+        }
+      }
+    },
+    "yale-mpox": {
+      "2000": {
+        "v1.0.0": {
+          "primer_scheme_name": "yale-mpox",
+          "amplicon_size": 2000,
+          "primer_scheme_version": "v1.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nicholas F.G. Chen"
+            },
+            {
+              "primer_scheme_contributor_name": "Luc Gagne"
+            },
+            {
+              "primer_scheme_contributor_name": "Matthew Doucette"
+            },
+            {
+              "primer_scheme_contributor_name": "Sandra Smole"
+            },
+            {
+              "primer_scheme_contributor_name": "Erika Buzby"
+            },
+            {
+              "primer_scheme_contributor_name": "Joshua Hall"
+            },
+            {
+              "primer_scheme_contributor_name": "Stephanie Ash"
+            },
+            {
+              "primer_scheme_contributor_name": "Rachel Harrington"
+            },
+            {
+              "primer_scheme_contributor_name": "Seana Cofsky"
+            },
+            {
+              "primer_scheme_contributor_name": "Selina Clancy"
+            },
+            {
+              "primer_scheme_contributor_name": "Curtis J Kapsak"
+            },
+            {
+              "primer_scheme_contributor_name": "Joel Sevinsky"
+            },
+            {
+              "primer_scheme_contributor_name": "Kevin Libuit"
+            },
+            {
+              "primer_scheme_contributor_name": "Mallery I Breban"
+            },
+            {
+              "primer_scheme_contributor_name": "Chrispin Chaguza"
+            },
+            {
+              "primer_scheme_contributor_name": "Nathan D. Grubaugh"
+            },
+            {
+              "primer_scheme_contributor_name": "Daniel J. Park"
+            },
+            {
+              "primer_scheme_contributor_name": "Glen R. Gallagher"
+            },
+            {
+              "primer_scheme_contributor_name": "Chantal B.F. Vogels"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "mpxv"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe",
+            "reference_sequence_sha256": "d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/yale-mpox/2000/v1.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/yale-mpox/2000/v1.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/yale-mpox/2000/v1.0.0/info.json"
+        }
+      }
+    },
+    "midnight-sars-cov-2": {
+      "1200": {
+        "v2.0.0-bccdc": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v2.0.0-bccdc",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            },
+            {
+              "primer_scheme_contributor_name": "John Tyson"
+            },
+            {
+              "primer_scheme_contributor_name": "Tracy Lee"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v1.0.0-bccdc",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "d3b7c27c01c87a604a9648b180db25b170ec2629e8395a4d698bf5965f6a302e",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0-bccdc/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0-bccdc/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0-bccdc/info.json"
+        },
+        "v4.0.0-bccdc": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v4.0.0-bccdc",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            },
+            {
+              "primer_scheme_contributor_name": "John Tyson"
+            },
+            {
+              "primer_scheme_contributor_name": "Tracy Lee"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v3.0.0-bccdc",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "277fb80daf5d462369069508237a400677079c4c554e23506b5915ace9570aff",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v4.0.0-bccdc/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v4.0.0-bccdc/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v4.0.0-bccdc/info.json"
+        },
+        "v2.0.0": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v2.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v1.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "e48d23b772a7c89826b74efcd55ab07ccc586ad95ee13260ff7772db1320df7a",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v2.0.0/info.json"
+        },
+        "v3.0.0-bccdc": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v3.0.0-bccdc",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            },
+            {
+              "primer_scheme_contributor_name": "John Tyson"
+            },
+            {
+              "primer_scheme_contributor_name": "Tracy Lee"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v2.0.0-bccdc",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "1a0ee6df04ccb4752800908833014022bca52386635a46832c7b5c3e847700f1",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-bccdc/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-bccdc/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-bccdc/info.json"
+        },
+        "v1.0.0": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v1.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "7a9bac73b1eb9244e29788247f1ba1fa0d40e0f478a97e72cd3ab4fe745677e0",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0/info.json"
+        },
+        "v3.0.0-ont": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v3.0.0-ont",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            },
+            {
+              "primer_scheme_contributor_name": "Oxford Nanopore Technologies"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v2.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "b6d7b3a05988aad424b2a0de3bf70e0cc5762cd56efe813b48d894dacc15c657",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-ont/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-ont/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v3.0.0-ont/info.json"
+        },
+        "v1.0.0-bccdc": {
+          "primer_scheme_name": "midnight-sars-cov-2",
+          "amplicon_size": 1200,
+          "primer_scheme_version": "v1.0.0-bccdc",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Nikki Freed"
+            },
+            {
+              "primer_scheme_contributor_name": "Olin Silander"
+            },
+            {
+              "primer_scheme_contributor_name": "John Tyson"
+            },
+            {
+              "primer_scheme_contributor_name": "Tracy Lee"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "sars-cov-2"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DEPRECATED",
+          "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v1.0.0",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "ff7fd0957777aa991e5ba4273e0c3cdea8dd091b0cb1078dc0fd23aca5a90634",
+            "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0-bccdc/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0-bccdc/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/midnight-sars-cov-2/1200/v1.0.0-bccdc/info.json"
+        }
+      }
+    },
+    "rigshospitalet": {
+      "2500": {
+        "v1.0.0": {
+          "primer_scheme_name": "rigshospitalet",
+          "amplicon_size": 2500,
+          "primer_scheme_version": "v1.0.0",
+          "primer_scheme_contributor": [
+            {
+              "primer_scheme_contributor_name": "Martin Schou Pedersen"
+            },
+            {
+              "primer_scheme_contributor_name": "Matthijs Welkers"
+            },
+            {
+              "primer_scheme_contributor_name": "Marcel Jonges"
+            },
+            {
+              "primer_scheme_contributor_name": "Anton van den Ouden"
+            }
+          ],
+          "primer_scheme_target_organism": [
+            {
+              "primer_scheme_target_organism_name": "mpxv"
+            }
+          ],
+          "primer_scheme_license": "CC-BY-SA-4.0",
+          "primer_scheme_development_status": "DRAFT",
+          "primer_scheme_checksums": {
+            "primer_scheme_sha256": "491b706b69f776d4733c2be0f61ccc89e69164d7ccc4a0f0aedd7652d047fe24",
+            "reference_sequence_sha256": "2415f80de820bcbffddebbb919e8c23e14496932555f73ca5f0705b752b86966"
+          },
+          "primer_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/rigshospitalet/2500/v1.0.0/primer.bed",
+          "reference_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/rigshospitalet/2500/v1.0.0/reference.fasta",
+          "info_file_url": "https://raw.githubusercontent.com/pha4ge/primer-schemes/main/schemes/rigshospitalet/2500/v1.0.0/info.json"
+        }
+      }
+    }
+  }
+}

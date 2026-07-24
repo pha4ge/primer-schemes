@@ -1,42 +1,43 @@
 {
     "schema_version": "1.0.0-alpha",
-    "name": "midnight-sars-cov-2",
+    "primer_scheme_name": "midnight-sars-cov-2",
     "amplicon_size": 1200,
-    "version": "v1.0.0",
-    "contributors": [
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "midnight-sars-cov-2/1200/v1.0.0",
+    "primer_scheme_contributor": [
         {
-            "name": "Nikki Freed"
+            "primer_scheme_contributor_name": "Nikki Freed"
         },
         {
-            "name": "Olin Silander"
+            "primer_scheme_contributor_name": "Olin Silander"
         }
     ],
-    "target_organisms": [
+    "primer_scheme_target_organism": [
         {
-            "common_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "sars-cov-2"
         }
     ],
-    "aliases": [
+    "primer_scheme_identifier_alias": [
         "midnight-ont-v1",
         "Midnight-ONT/V1",
         "V1200"
     ],
-    "license": "CC-BY-SA-4.0",
-    "status": "DEPRECATED",
-    "citations": [
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DEPRECATED",
+    "citation": [
         "https://dx.doi.org/10.17504/protocols.io.bwyppfvn"
     ],
-    "vendors": [
+    "primer_scheme_vendor": [
         {
-            "organisation_name": "Oxford Nanopore Technologies",
-            "kit_name": "MRT001.10"
+            "primer_scheme_vendor_name": "Oxford Nanopore Technologies",
+            "primer_scheme_vendor_kit_name": "MRT001.10"
         },
         {
-            "organisation_name": "Integrated DNA Technologies"
+            "primer_scheme_vendor_name": "Integrated DNA Technologies"
         }
     ],
-    "checksums": {
-        "primer_sha256": "7a9bac73b1eb9244e29788247f1ba1fa0d40e0f478a97e72cd3ab4fe745677e0",
-        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "7a9bac73b1eb9244e29788247f1ba1fa0d40e0f478a97e72cd3ab4fe745677e0",
+        "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
     }
 }

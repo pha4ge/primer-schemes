@@ -20,24 +20,25 @@
 ```json
 {
     "schema_version": "1.0.0-alpha",
-    "name": "nipah",
+    "primer_scheme_name": "nipah",
     "amplicon_size": 400,
-    "version": "v1.0.0",
-    "contributors": [
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "nipah/400/v1.0.0",
+    "primer_scheme_contributor": [
         {
-            "name": "ARTIC network"
+            "primer_scheme_contributor_name": "ARTIC network"
         }
     ],
-    "target_organisms": [
+    "primer_scheme_target_organism": [
         {
-            "common_name": "niv"
+            "primer_scheme_target_organism_name": "niv"
         }
     ],
-    "license": "CC-BY-SA-4.0",
-    "status": "DRAFT",
-    "checksums": {
-        "primer_sha256": "36a2c996015a04344dc700142a43586d84c11b7c27dee62e25079e08f14e6e43",
-        "reference_sha256": "815c8701e321c2a488e43d70300d0dfbd0a8deb088e784d23935cabf54892a3d"
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "36a2c996015a04344dc700142a43586d84c11b7c27dee62e25079e08f14e6e43",
+        "reference_sequence_sha256": "815c8701e321c2a488e43d70300d0dfbd0a8deb088e784d23935cabf54892a3d"
     }
 }
 ```
