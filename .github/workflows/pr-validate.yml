@@ -24,4 +24,5 @@ jobs:
 
       - name: Build index (check only)
         run: |
-          primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > _index.json
+          mkdir -p /tmp/index-check
+          primaschema index --primer-schemes-path ./schemes --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes --source-commit "$GITHUB_SHA" --output-path /tmp/index-check

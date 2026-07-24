@@ -25,7 +25,7 @@ jobs:
         run: uv tool install primaschema
       - name: Build index
         run: |
-          primaschema index --primer-schemes-path ./schemes  --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes > index.json
+          primaschema index --primer-schemes-path ./schemes --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes --source-commit "$GITHUB_SHA"
 
       - name: Commit index.json if changed
         run: |
