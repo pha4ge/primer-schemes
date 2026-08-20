@@ -1,4 +1,4 @@
-# midnight-sars-cov-2 1200bp v1.0.0-bccdc
+# bccdc-midnight-sars-cov-2 1200bp v1.0.0
 
 ![Generic badge](https://img.shields.io/badge/STATUS-DEPRECATED-red.svg)
 
@@ -31,10 +31,10 @@ Accomodates P.1
 ```json
 {
     "schema_version": "1.0.0-alpha",
-    "primer_scheme_name": "midnight-sars-cov-2",
+    "primer_scheme_name": "bccdc-midnight-sars-cov-2",
     "amplicon_size": 1200,
-    "primer_scheme_version": "v1.0.0-bccdc",
-    "primer_scheme_identifier": "midnight-sars-cov-2/1200/v1.0.0-bccdc",
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "bccdc-midnight-sars-cov-2/1200/v1.0.0",
     "primer_scheme_contributor": [
         {
             "primer_scheme_contributor_name": "Nikki Freed"
