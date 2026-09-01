@@ -27,14 +27,16 @@ jobs:
         run: |
           primaschema index --primer-schemes-path ./schemes --base-url https://raw.githubusercontent.com/${{github.repository}}/main/schemes --source-commit "$GITHUB_SHA"
 
-      - name: Commit index.json if changed
+      - name: Commit index if changed
         run: |
+          # Guard on index.json only: index.json.gz embeds a gzip mtime, so it
+          # differs on every build even when the index content is unchanged.
           if git diff --quiet -- index.json; then
             echo "index.json unchanged"
             exit 0
           fi
           git config user.name "primer-bot"
           git config user.email "primer-bot@users.noreply.github.com"
-          git add index.json
+          git add index.json index.json.gz
           git commit -m "auto update index.json"
           git push
