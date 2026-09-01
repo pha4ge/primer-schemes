@@ -61,12 +61,12 @@ A scheme definition comprises *i)* a reference sequence (`reference.fasta`), *ii
 
 - `eden/2500/v1.0.0`
 - `midnight-sars-cov-2/1200/v1.0.0`
-- `midnight-sars-cov-2/1200/v1.0.0-bccdc`
 - `midnight-sars-cov-2/1200/v2.0.0`
-- `midnight-sars-cov-2/1200/v2.0.0-bccdc`
-- `midnight-sars-cov-2/1200/v3.0.0-bccdc`
-- `midnight-sars-cov-2/1200/v3.0.0-ont`
-- `midnight-sars-cov-2/1200/v4.0.0-bccdc`
+- `bccdc-midnight-sars-cov-2/1200/v1.0.0`
+- `bccdc-midnight-sars-cov-2/1200/v2.0.0`
+- `bccdc-midnight-sars-cov-2/1200/v3.0.0`
+- `bccdc-midnight-sars-cov-2/1200/v4.0.0`
+- `ont-midnight-sars-cov-2/1200/v3.0.0`
 - `artic-sars-cov-2/400/v1.0.0`
 - `artic-sars-cov-2/400/v2.0.0`
 - `artic-sars-cov-2/400/v3.0.0`
