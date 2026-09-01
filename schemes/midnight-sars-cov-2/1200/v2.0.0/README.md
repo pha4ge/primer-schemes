@@ -17,7 +17,7 @@ Not considered a new version by Freed et al. and IDT despite additional primer
 **Target Organisms:**
 - sars-cov-2
 
-**Derived from:** midnight-v1
+**Derived from:** midnight-sars-cov-2/1200/v1.0.0
 
 ## Contributors
 
@@ -37,47 +37,48 @@ Not considered a new version by Freed et al. and IDT despite additional primer
 ```json
 {
     "schema_version": "1.0.0-alpha",
-    "name": "midnight-sars-cov-2",
+    "primer_scheme_name": "midnight-sars-cov-2",
     "amplicon_size": 1200,
-    "version": "v2.0.0",
-    "contributors": [
+    "primer_scheme_version": "v2.0.0",
+    "primer_scheme_identifier": "midnight-sars-cov-2/1200/v2.0.0",
+    "primer_scheme_contributor": [
         {
-            "name": "Nikki Freed"
+            "primer_scheme_contributor_name": "Nikki Freed"
         },
         {
-            "name": "Olin Silander"
+            "primer_scheme_contributor_name": "Olin Silander"
         }
     ],
-    "target_organisms": [
+    "primer_scheme_target_organism": [
         {
-            "common_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "sars-cov-2"
         }
     ],
-    "aliases": [
+    "primer_scheme_identifier_alias": [
         "midnight-ont-v2",
         "midnight-idt-v1",
         "Midnight-ONT/V2"
     ],
-    "license": "CC-BY-SA-4.0",
-    "status": "DEPRECATED",
-    "derived_from": "midnight-v1",
-    "citations": [
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DEPRECATED",
+    "primer_scheme_derived_from": "midnight-sars-cov-2/1200/v1.0.0",
+    "citation": [
         "https://dx.doi.org/10.17504/protocols.io.bwyppfvn"
     ],
-    "notes": [
+    "primer_scheme_details": [
         "Accomodates Omicron BA.1 with single primer addition",
         "https://twitter.com/freed_nikki/status/1464477522448433156",
         "Not considered a new version by Freed et al. and IDT despite additional primer"
     ],
-    "vendors": [
+    "primer_scheme_vendor": [
         {
-            "organisation_name": "Oxford Nanopore Technologies",
-            "kit_name": "MRT001.20"
+            "primer_scheme_vendor_name": "Oxford Nanopore Technologies",
+            "primer_scheme_vendor_kit_name": "MRT001.20"
         }
     ],
-    "checksums": {
-        "primer_sha256": "e48d23b772a7c89826b74efcd55ab07ccc586ad95ee13260ff7772db1320df7a",
-        "reference_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "e48d23b772a7c89826b74efcd55ab07ccc586ad95ee13260ff7772db1320df7a",
+        "reference_sequence_sha256": "4e43298c083d3da7bfbab890e351e3e58015f9bd7fac1bdee097d11ac89f785d"
     }
 }
 ```

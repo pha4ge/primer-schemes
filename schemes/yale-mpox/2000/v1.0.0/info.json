@@ -1,85 +1,86 @@
 {
     "schema_version": "1.0.0-alpha",
-    "name": "yale-mpox",
+    "primer_scheme_name": "yale-mpox",
     "amplicon_size": 2000,
-    "version": "v1.0.0",
-    "contributors": [
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "yale-mpox/2000/v1.0.0",
+    "primer_scheme_contributor": [
         {
-            "name": "Nicholas F.G. Chen"
+            "primer_scheme_contributor_name": "Nicholas F.G. Chen"
         },
         {
-            "name": "Luc Gagne"
+            "primer_scheme_contributor_name": "Luc Gagne"
         },
         {
-            "name": "Matthew Doucette"
+            "primer_scheme_contributor_name": "Matthew Doucette"
         },
         {
-            "name": "Sandra Smole"
+            "primer_scheme_contributor_name": "Sandra Smole"
         },
         {
-            "name": "Erika Buzby"
+            "primer_scheme_contributor_name": "Erika Buzby"
         },
         {
-            "name": "Joshua Hall"
+            "primer_scheme_contributor_name": "Joshua Hall"
         },
         {
-            "name": "Stephanie Ash"
+            "primer_scheme_contributor_name": "Stephanie Ash"
         },
         {
-            "name": "Rachel Harrington"
+            "primer_scheme_contributor_name": "Rachel Harrington"
         },
         {
-            "name": "Seana Cofsky"
+            "primer_scheme_contributor_name": "Seana Cofsky"
         },
         {
-            "name": "Selina Clancy"
+            "primer_scheme_contributor_name": "Selina Clancy"
         },
         {
-            "name": "Curtis J Kapsak"
+            "primer_scheme_contributor_name": "Curtis J Kapsak"
         },
         {
-            "name": "Joel Sevinsky"
+            "primer_scheme_contributor_name": "Joel Sevinsky"
         },
         {
-            "name": "Kevin Libuit"
+            "primer_scheme_contributor_name": "Kevin Libuit"
         },
         {
-            "name": "Mallery I Breban"
+            "primer_scheme_contributor_name": "Mallery I Breban"
         },
         {
-            "name": "Chrispin Chaguza"
+            "primer_scheme_contributor_name": "Chrispin Chaguza"
         },
         {
-            "name": "Nathan D. Grubaugh"
+            "primer_scheme_contributor_name": "Nathan D. Grubaugh"
         },
         {
-            "name": "Daniel J. Park"
+            "primer_scheme_contributor_name": "Daniel J. Park"
         },
         {
-            "name": "Glen R. Gallagher"
+            "primer_scheme_contributor_name": "Glen R. Gallagher"
         },
         {
-            "name": "Chantal B.F. Vogels"
+            "primer_scheme_contributor_name": "Chantal B.F. Vogels"
         }
     ],
-    "target_organisms": [
+    "primer_scheme_target_organism": [
         {
-            "common_name": "mpxv"
+            "primer_scheme_target_organism_name": "mpxv"
         }
     ],
-    "license": "CC-BY-SA-4.0",
-    "status": "DRAFT",
-    "citations": [
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "citation": [
         "https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4"
     ],
-    "vendors": [
+    "primer_scheme_vendor": [
         {
-            "organisation_name": "IDT",
-            "kit_name": "Yale hMPXV Amplicon Panel"
+            "primer_scheme_vendor_name": "IDT",
+            "primer_scheme_vendor_kit_name": "Yale hMPXV Amplicon Panel"
         }
     ],
-    "checksums": {
-        "primer_sha256": "6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe",
-        "reference_sha256": "d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe",
+        "reference_sequence_sha256": "d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"
     }
 }
