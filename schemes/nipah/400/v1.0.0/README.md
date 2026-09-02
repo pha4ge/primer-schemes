@@ -5,7 +5,7 @@
 ## Metadata
 
 **Target Organisms:**
-- niv
+- Nipah virus (Tax ID: 3052225)
 
 ## Contributors
 
@@ -31,7 +31,8 @@
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "niv"
+            "primer_scheme_target_organism_name": "Nipah virus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "3052225"
         }
     ],
     "primer_scheme_license": "CC-BY-SA-4.0",
