@@ -1,0 +1,26 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "yale-hmpv-a",
+    "amplicon_size": 400,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "yale-hmpv-a/400/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "grubaugh-lab",
+            "primer_scheme_contributor_email": "grubaughlab@gmail.com"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Human metapneumovirus A",
+            "primer_scheme_target_organism_ncbi_taxon_id": "3037664"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "707861117592cf236c241ac7d0160d98af5d1782495914b606a062de13bce66c",
+        "reference_sequence_sha256": "a061b7467dcbd44a3c96eb4be121444de1d853a18653f10b6ea4e76b9cb36976"
+    },
+    "primer_scheme_submission_date": "2026-09-01"
+}
