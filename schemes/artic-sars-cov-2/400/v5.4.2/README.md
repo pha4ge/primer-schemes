@@ -1,19 +1,27 @@
 # artic-sars-cov-2 400bp v5.4.2
 
-![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
+![Generic badge](https://img.shields.io/badge/STATUS-VALIDATED-green.svg)
+
+> If you use this scheme please cite: https://community.artic.network/t/scheme-release-artic-sars-cov2-400-v5-4-2/546
 
 > If you use this scheme please cite: https://doi.org/10.1101%2F2020.09.04.283077
+
+## Notes
+
+An updated version of v5.3.2, with 4 spike in primers to improve the coverage for mutations found in JN.1
 
 ## Metadata
 
 **Target Organisms:**
-- sars-cov-2
+- Severe acute respiratory syndrome coronavirus 2 (Tax ID: 2697049)
 
 **Derived from:** artic-sars-cov-2/400/v5.3.2
 
 ## Contributors
 
 - ARTIC network
+- Quick Lab
+- BCCDC-PHL
 
 ## Overviews
 
@@ -31,26 +39,50 @@
     "primer_scheme_contributor": [
         {
             "primer_scheme_contributor_name": "ARTIC network"
+        },
+        {
+            "primer_scheme_contributor_name": "Quick Lab"
+        },
+        {
+            "primer_scheme_contributor_name": "BCCDC-PHL"
         }
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
         }
     ],
     "primer_scheme_identifier_alias": [
         "ARTIC/V5.4.2"
     ],
-    "primer_scheme_license": "CC-BY-SA-4.0",
-    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_license": "CC-BY-4.0",
+    "primer_scheme_development_status": "VALIDATED",
+    "primer_scheme_application": [
+        "CLINICAL",
+        "WASTEWATER"
+    ],
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
     "primer_scheme_derived_from": "artic-sars-cov-2/400/v5.3.2",
     "citation": [
+        "https://community.artic.network/t/scheme-release-artic-sars-cov2-400-v5-4-2/546",
         "https://doi.org/10.1101%2F2020.09.04.283077"
     ],
+    "primer_scheme_details": [
+        "An updated version of v5.3.2, with 4 spike in primers to improve the coverage for mutations found in JN.1"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme2",
+        "primer_scheme_generator_version": "1.0.0"
+    },
     "primer_scheme_checksums": {
-        "primer_scheme_sha256": "6571cffa29dc9c2a41053e9c3a6eb6bbffac8b20449e241099564b74b7455432",
+        "primer_scheme_sha256": "0c128550338fd7a9e9afdb256a1fa4820c3b8fcddca6bc5cd4fcb661a49b013d",
         "reference_sequence_sha256": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
-    }
+    },
+    "primer_scheme_creation_date": "2024-08-06",
+    "primer_scheme_submission_date": "2026-09-01"
 }
 ```
 
@@ -58,6 +90,6 @@
 
 ------------------------------------------------------------------------
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![](https://i.creativecommons.org/l/by/4.0/88x31.png)
