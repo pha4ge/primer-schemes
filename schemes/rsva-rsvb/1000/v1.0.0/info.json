@@ -1,0 +1,39 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "rsva-rsvb",
+    "amplicon_size": 1000,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "rsva-rsvb/1000/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "Quick-lab"
+        },
+        {
+            "primer_scheme_contributor_name": "BCCDC-PHL"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "human respiratory syncytial virus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "11250"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "TESTED",
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "primer_scheme_details": [
+        "A Scheme for RSVA and RSVB. Schemes can be used separately or multiplexed"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme3",
+        "primer_scheme_generator_version": "0.1.0"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "c9ee7480a0eadd3dd10d673ffe6074387d8f295e116963ba2d694fd672968039",
+        "reference_sequence_sha256": "69bbb46e6a6be87d43bb51fb8792e00bdcce83c01e8ebd698d2da8324502c438"
+    },
+    "primer_scheme_creation_date": "2024-03-19",
+    "primer_scheme_submission_date": "2026-09-01"
+}
