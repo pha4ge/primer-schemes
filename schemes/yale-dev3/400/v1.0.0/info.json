@@ -1,0 +1,62 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "yale-dev3",
+    "amplicon_size": 400,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "yale-dev3/400/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "Chantal Vogels"
+        },
+        {
+            "primer_scheme_contributor_name": "Verity Hill"
+        },
+        {
+            "primer_scheme_contributor_name": "Mallery I Breban"
+        },
+        {
+            "primer_scheme_contributor_name": "Chrispin Chaguza"
+        },
+        {
+            "primer_scheme_contributor_name": "Afeez Sodeinde"
+        },
+        {
+            "primer_scheme_contributor_name": "Emma Taylor-Salmon"
+        },
+        {
+            "primer_scheme_contributor_name": "Abigail J. Porzucek"
+        },
+        {
+            "primer_scheme_contributor_name": "Nathan Grubaugh",
+            "primer_scheme_contributor_email": "grubaughlab@gmail.com"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "dengue virus type 3",
+            "primer_scheme_target_organism_ncbi_taxon_id": "11069"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "VALIDATED",
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "citation": [
+        "https://doi.org/10.1186/s12864-024-10350-x",
+        "https://dx.doi.org/10.17504/protocols.io.kqdg39xxeg25/v3"
+    ],
+    "primer_scheme_details": [
+        "Primer scheme for dengue virus serotype 3",
+        "Contact: grubaughlab@gmail.com"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme1"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "b32884613c134c096ea8dcef106e3814c389a3e3c687392e46e6bf9fda31c0d6",
+        "reference_sequence_sha256": "c5fc5d80d3116e688d98a414990da777cdbefd276c2453f2f9154fa1dc96f696"
+    },
+    "primer_scheme_creation_date": "2024-08-21",
+    "primer_scheme_submission_date": "2026-09-01"
+}
