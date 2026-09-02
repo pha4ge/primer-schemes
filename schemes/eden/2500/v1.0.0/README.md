@@ -11,7 +11,7 @@ Protocol includes addendum for ONT sequencing
 ## Metadata
 
 **Target Organisms:**
-- sars-cov-2
+- Severe acute respiratory syndrome coronavirus 2 (Tax ID: 2697049)
 
 ## Contributors
 
@@ -41,7 +41,8 @@ Protocol includes addendum for ONT sequencing
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
         }
     ],
     "primer_scheme_identifier_alias": [
