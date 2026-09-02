@@ -7,7 +7,7 @@
 ## Metadata
 
 **Target Organisms:**
-- sars-cov-2
+- Severe acute respiratory syndrome coronavirus 2 (Tax ID: 2697049)
 
 **Derived from:** bccdc-midnight-sars-cov-2/1200/v2.0.0
 
@@ -15,8 +15,7 @@
 
 - Nikki Freed
 - Olin Silander
-- John Tyson
-- Tracy Lee
+- BCCDC-PHL
 
 ## Overviews
 
@@ -39,15 +38,13 @@
             "primer_scheme_contributor_name": "Olin Silander"
         },
         {
-            "primer_scheme_contributor_name": "John Tyson"
-        },
-        {
-            "primer_scheme_contributor_name": "Tracy Lee"
+            "primer_scheme_contributor_name": "BCCDC-PHL"
         }
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
         }
     ],
     "primer_scheme_license": "CC-BY-SA-4.0",
