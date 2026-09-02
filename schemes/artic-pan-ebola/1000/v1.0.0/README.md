@@ -11,7 +11,7 @@
 
 ## Contributors
 
-- artic
+- ARTIC network
 - Quick Lab
 
 ## Overviews
@@ -29,7 +29,7 @@
     "primer_scheme_identifier": "artic-pan-ebola/1000/v1.0.0",
     "primer_scheme_contributor": [
         {
-            "primer_scheme_contributor_name": "artic"
+            "primer_scheme_contributor_name": "ARTIC network"
         },
         {
             "primer_scheme_contributor_name": "Quick Lab"
