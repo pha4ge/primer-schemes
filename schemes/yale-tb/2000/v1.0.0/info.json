@@ -1,0 +1,48 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "yale-tb",
+    "amplicon_size": 2000,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "yale-tb/2000/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "Chaney Kalinich"
+        },
+        {
+            "primer_scheme_contributor_name": "Freddy Gonzalez"
+        },
+        {
+            "primer_scheme_contributor_name": "Isabella Distefano"
+        },
+        {
+            "primer_scheme_contributor_name": "Seth Redmond"
+        },
+        {
+            "primer_scheme_contributor_name": "Nathan Grubaugh",
+            "primer_scheme_contributor_email": "grubaughlab@gmail.com"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Mycobacterium tuberculosis",
+            "primer_scheme_target_organism_ncbi_taxon_id": "1773"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "TESTED",
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "primer_scheme_details": [
+        "Primerscheme designed for the whole genome of Mycobacterium tuberculosis"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme1"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "62b34a9d121a345942bef958ff6ca6af5293b9802fbf0ff13bf8eab939c34ac5",
+        "reference_sequence_sha256": "28f5c363661aa479d15b2c3c8f5c63a45141074e8637b87e2fd50731697f6d48"
+    },
+    "primer_scheme_creation_date": "2024-08-21",
+    "primer_scheme_submission_date": "2026-09-01"
+}
