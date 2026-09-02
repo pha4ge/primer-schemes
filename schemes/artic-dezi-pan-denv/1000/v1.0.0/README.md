@@ -14,7 +14,7 @@ A scheme designed to target all Dengue serotypes using the PrimerDownSampling
 ## Contributors
 
 - ARTIC network
-- DEZI network
+- DeZi Network
 
 ## Overviews
 
@@ -34,7 +34,7 @@ A scheme designed to target all Dengue serotypes using the PrimerDownSampling
             "primer_scheme_contributor_name": "ARTIC network"
         },
         {
-            "primer_scheme_contributor_name": "DEZI network"
+            "primer_scheme_contributor_name": "DeZi Network"
         }
     ],
     "primer_scheme_target_organism": [
