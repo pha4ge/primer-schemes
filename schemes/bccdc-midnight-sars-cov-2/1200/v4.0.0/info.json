@@ -12,15 +12,13 @@
             "primer_scheme_contributor_name": "Olin Silander"
         },
         {
-            "primer_scheme_contributor_name": "John Tyson"
-        },
-        {
-            "primer_scheme_contributor_name": "Tracy Lee"
+            "primer_scheme_contributor_name": "BCCDC-PHL"
         }
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
         }
     ],
     "primer_scheme_identifier_alias": [
