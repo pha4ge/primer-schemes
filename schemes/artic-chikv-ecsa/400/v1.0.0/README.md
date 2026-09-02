@@ -9,7 +9,7 @@
 
 ## Contributors
 
-- quick-lab
+- Quick Lab
 - ARTIC network
 
 ## Overviews
@@ -27,7 +27,7 @@
     "primer_scheme_identifier": "artic-chikv-ecsa/400/v1.0.0",
     "primer_scheme_contributor": [
         {
-            "primer_scheme_contributor_name": "quick-lab"
+            "primer_scheme_contributor_name": "Quick Lab"
         },
         {
             "primer_scheme_contributor_name": "ARTIC network"
