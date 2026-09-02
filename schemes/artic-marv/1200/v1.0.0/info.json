@@ -1,0 +1,38 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "artic-marv",
+    "amplicon_size": 1200,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "artic-marv/1200/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "ARTIC network"
+        },
+        {
+            "primer_scheme_contributor_name": "Quick Lab"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Orthomarburgvirus marburgense",
+            "primer_scheme_target_organism_ncbi_taxon_id": "3052505"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "primer_scheme_details": [
+        "Genomes for MARV and RAVV were downloaded from Genbank, aligned using MAFFT and alignment was used as the input for primalscheme3."
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme3"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "ec5aa7d52ccafc835944186a4f5f7197e26a9155086e00c0e0349647985c8809",
+        "reference_sequence_sha256": "154ae9e5348a8fd891f1c45896f5c4dd2b4b235014c5c71ed5a9a332d1ad971e"
+    },
+    "primer_scheme_creation_date": "2024-10-03",
+    "primer_scheme_submission_date": "2026-09-01"
+}
