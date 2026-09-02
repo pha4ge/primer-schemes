@@ -1,0 +1,74 @@
+# artic-pan-ebola 1000bp v1.0.0
+
+![Generic badge](https://img.shields.io/badge/STATUS-VALIDATED-green.svg)
+
+> If you use this scheme please cite: https://virological.org/t/near-real-time-genomic-characterization-of-the-2025-sudan-ebolavirus-outbreak-in-uganda-s-index-case-insights-into-evolutionary-origins/990
+
+## Metadata
+
+**Target Organisms:**
+- Orthoebolavirus (Tax ID: 3044781)
+
+## Contributors
+
+- artic
+- Quick Lab
+
+## Overviews
+
+<div style="width: 100%;"><img src="assets/primer.svg" style="width: 100%;" alt="Click to see the source"></div>
+
+## Details
+
+```json
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "artic-pan-ebola",
+    "amplicon_size": 1000,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "artic-pan-ebola/1000/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "artic"
+        },
+        {
+            "primer_scheme_contributor_name": "Quick Lab"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Orthoebolavirus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "3044781"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "VALIDATED",
+    "primer_scheme_application": [
+        "CLINICAL"
+    ],
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "citation": [
+        "https://virological.org/t/near-real-time-genomic-characterization-of-the-2025-sudan-ebolavirus-outbreak-in-uganda-s-index-case-insights-into-evolutionary-origins/990"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme3",
+        "primer_scheme_generator_version": "1.1.0"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "c02eaf8d02630b2a01e1cf0b3d448f126bc3376bbf5f054a4eb7d661607550b8",
+        "reference_sequence_sha256": "4a43f697b31ec2525e65c08dcd9c6cb7f5ed5c9ba1dd254fe89ca621e43b7a2d"
+    },
+    "primer_scheme_creation_date": "2024-01-16",
+    "primer_scheme_submission_date": "2026-09-01"
+}
+```
+
+
+
+------------------------------------------------------------------------
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
