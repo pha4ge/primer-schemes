@@ -1,39 +1,30 @@
 # yale-mpox 2000bp v1.0.0
 
-![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
+![Generic badge](https://img.shields.io/badge/STATUS-VALIDATED-green.svg)
+
+> If you use this scheme please cite: https://doi.org/10.1371/journal.pbio.3002151
 
 > If you use this scheme please cite: https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4
+
+## Notes
+
+Primerscheme designed for the global outbreak of human Monkeypox virus (hMPXV)
 
 ## Metadata
 
 **Target Organisms:**
-- mpxv
+- Monkeypox virus (Tax ID: 10244)
 
 ## Contributors
 
 - Nicholas F.G. Chen
 - Luc Gagne
-- Matthew Doucette
-- Sandra Smole
-- Erika Buzby
-- Joshua Hall
-- Stephanie Ash
-- Rachel Harrington
-- Seana Cofsky
-- Selina Clancy
-- Curtis J Kapsak
-- Joel Sevinsky
-- Kevin Libuit
-- Mallery I Breban
-- Chrispin Chaguza
-- Nathan D. Grubaugh
-- Daniel J. Park
 - Glen R. Gallagher
-- Chantal B.F. Vogels
+- Chantal Vogels
 
 ## Vendors
 
-- IDT: Yale hMPXV Amplicon Panel
+- IDT: Yale hMPXV Amplicon Panel ([Website](https://go.idtdna.com/Yale-Mpox-Amplicon-Panel-Request-Consult.html))
 
 ## Overviews
 
@@ -56,77 +47,46 @@
             "primer_scheme_contributor_name": "Luc Gagne"
         },
         {
-            "primer_scheme_contributor_name": "Matthew Doucette"
-        },
-        {
-            "primer_scheme_contributor_name": "Sandra Smole"
-        },
-        {
-            "primer_scheme_contributor_name": "Erika Buzby"
-        },
-        {
-            "primer_scheme_contributor_name": "Joshua Hall"
-        },
-        {
-            "primer_scheme_contributor_name": "Stephanie Ash"
-        },
-        {
-            "primer_scheme_contributor_name": "Rachel Harrington"
-        },
-        {
-            "primer_scheme_contributor_name": "Seana Cofsky"
-        },
-        {
-            "primer_scheme_contributor_name": "Selina Clancy"
-        },
-        {
-            "primer_scheme_contributor_name": "Curtis J Kapsak"
-        },
-        {
-            "primer_scheme_contributor_name": "Joel Sevinsky"
-        },
-        {
-            "primer_scheme_contributor_name": "Kevin Libuit"
-        },
-        {
-            "primer_scheme_contributor_name": "Mallery I Breban"
-        },
-        {
-            "primer_scheme_contributor_name": "Chrispin Chaguza"
-        },
-        {
-            "primer_scheme_contributor_name": "Nathan D. Grubaugh"
-        },
-        {
-            "primer_scheme_contributor_name": "Daniel J. Park"
-        },
-        {
             "primer_scheme_contributor_name": "Glen R. Gallagher"
         },
         {
-            "primer_scheme_contributor_name": "Chantal B.F. Vogels"
+            "primer_scheme_contributor_name": "Chantal Vogels"
         }
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "mpxv"
+            "primer_scheme_target_organism_name": "Monkeypox virus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "10244"
         }
     ],
     "primer_scheme_license": "CC-BY-SA-4.0",
-    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_development_status": "VALIDATED",
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
     "citation": [
+        "https://doi.org/10.1371/journal.pbio.3002151",
         "https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4"
+    ],
+    "primer_scheme_details": [
+        "Primerscheme designed for the global outbreak of human Monkeypox virus (hMPXV)"
     ],
     "primer_scheme_vendor": [
         {
             "primer_scheme_vendor_name": "IDT",
+            "primer_scheme_vendor_url": "https://go.idtdna.com/Yale-Mpox-Amplicon-Panel-Request-Consult.html",
             "primer_scheme_vendor_kit_name": "Yale hMPXV Amplicon Panel"
         }
     ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme1"
+    },
     "primer_scheme_checksums": {
         "primer_scheme_sha256": "6c94a47215a929d6688c706559e5f3cc4c75420cc7787cee7cfcb3df344a4cfe",
         "reference_sequence_sha256": "d89e86982a1c513206c4d219d20da23de32e98d4370a89eb928713d8ea9fd46a"
-    }
+    },
+    "primer_scheme_creation_date": "2024-08-21",
+    "primer_scheme_submission_date": "2026-09-01"
 }
 ```
 

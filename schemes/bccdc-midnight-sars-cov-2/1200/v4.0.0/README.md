@@ -13,7 +13,7 @@ IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel 
 ## Metadata
 
 **Target Organisms:**
-- sars-cov-2
+- Severe acute respiratory syndrome coronavirus 2 (Tax ID: 2697049)
 
 **Derived from:** bccdc-midnight-sars-cov-2/1200/v3.0.0
 
@@ -21,8 +21,7 @@ IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel 
 
 - Nikki Freed
 - Olin Silander
-- John Tyson
-- Tracy Lee
+- BCCDC-PHL
 
 ## Overviews
 
@@ -45,15 +44,13 @@ IDT calls this the "-Midnight-1200 Amplicon Panel" and "Midnight Amplicon Panel 
             "primer_scheme_contributor_name": "Olin Silander"
         },
         {
-            "primer_scheme_contributor_name": "John Tyson"
-        },
-        {
-            "primer_scheme_contributor_name": "Tracy Lee"
+            "primer_scheme_contributor_name": "BCCDC-PHL"
         }
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
         }
     ],
     "primer_scheme_identifier_alias": [

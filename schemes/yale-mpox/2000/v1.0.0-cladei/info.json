@@ -1,0 +1,51 @@
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "yale-mpox",
+    "amplicon_size": 2000,
+    "primer_scheme_version": "v1.0.0-cladei",
+    "primer_scheme_identifier": "yale-mpox/2000/v1.0.0-cladei",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "ARTIC network"
+        },
+        {
+            "primer_scheme_contributor_name": "Nicholas F.G. Chen"
+        },
+        {
+            "primer_scheme_contributor_name": "Luc Gagne"
+        },
+        {
+            "primer_scheme_contributor_name": "Glen R. Gallagher"
+        },
+        {
+            "primer_scheme_contributor_name": "Chantal Vogels"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Monkeypox virus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "10244"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "TESTED",
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "primer_scheme_derived_from": "yale-mpox/2000/v1.0.0",
+    "citation": [
+        "https://dx.doi.org/10.17504/protocols.io.5qpvob1nbl4o/v4"
+    ],
+    "primer_scheme_details": [
+        "A copy of the yale-mpox for human Monkeypox virus (hMPXV) remapped from a Clade II reference genome to a Clade I"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme1"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "feb80041ee347164ff7406a8c8caa9fe0843b7761d3970194e4193feef4d0553",
+        "reference_sequence_sha256": "e2517f55e294fae53b1f35e6205b278a5072627d8d6293007af5f0c952f9f4fb"
+    },
+    "primer_scheme_creation_date": "2024-09-13",
+    "primer_scheme_submission_date": "2026-09-01"
+}

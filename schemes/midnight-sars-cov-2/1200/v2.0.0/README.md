@@ -15,7 +15,7 @@ Not considered a new version by Freed et al. and IDT despite additional primer
 ## Metadata
 
 **Target Organisms:**
-- sars-cov-2
+- Severe acute respiratory syndrome coronavirus 2 (Tax ID: 2697049)
 
 **Derived from:** midnight-sars-cov-2/1200/v1.0.0
 
@@ -51,7 +51,8 @@ Not considered a new version by Freed et al. and IDT despite additional primer
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "sars-cov-2"
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
         }
     ],
     "primer_scheme_identifier_alias": [

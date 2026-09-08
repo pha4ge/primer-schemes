@@ -1,0 +1,80 @@
+# artic-sars-cov-2 1200bp v5.2.0
+
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
+
+## Notes
+
+Schemes generated for the SARs-CoV-2 Outbreak
+
+## Metadata
+
+**Target Organisms:**
+- Severe acute respiratory syndrome coronavirus 2 (Tax ID: 2697049)
+
+## Contributors
+
+- Quick Lab
+- ARTIC network
+
+## Overviews
+
+<div style="width: 100%;"><img src="assets/primer.svg" style="width: 100%;" alt="Click to see the source"></div>
+
+## Details
+
+```json
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "artic-sars-cov-2",
+    "amplicon_size": 1200,
+    "primer_scheme_version": "v5.2.0",
+    "primer_scheme_identifier": "artic-sars-cov-2/1200/v5.2.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "Quick Lab"
+        },
+        {
+            "primer_scheme_contributor_name": "ARTIC network"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Severe acute respiratory syndrome coronavirus 2",
+            "primer_scheme_target_organism_ncbi_taxon_id": "2697049"
+        }
+    ],
+    "primer_scheme_identifier_alias": [
+        "ncov-2019",
+        "sars-cov-2"
+    ],
+    "primer_scheme_license": "CC-BY-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_application": [
+        "CLINICAL"
+    ],
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "primer_scheme_details": [
+        "Schemes generated for the SARs-CoV-2 Outbreak"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme2",
+        "primer_scheme_generator_version": "1.0.0"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "3b6a453bbd5d6a8d77bd9e694cb8961081e15a740022684c0317a8589babd450",
+        "reference_sequence_sha256": "9e08a5c6ccabc87074b46989335c3bacdb9662cd5aa3058451255ded8e436226"
+    },
+    "primer_scheme_creation_date": "2025-11-06",
+    "primer_scheme_submission_date": "2026-09-01"
+}
+```
+
+
+
+------------------------------------------------------------------------
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+![](https://i.creativecommons.org/l/by/4.0/88x31.png)

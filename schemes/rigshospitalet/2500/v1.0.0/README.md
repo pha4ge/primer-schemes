@@ -7,7 +7,7 @@
 ## Metadata
 
 **Target Organisms:**
-- mpxv
+- Monkeypox virus (Tax ID: 10244)
 
 ## Contributors
 
@@ -45,7 +45,8 @@
     ],
     "primer_scheme_target_organism": [
         {
-            "primer_scheme_target_organism_name": "mpxv"
+            "primer_scheme_target_organism_name": "Monkeypox virus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "10244"
         }
     ],
     "primer_scheme_identifier_alias": [

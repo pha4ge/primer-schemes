@@ -1,0 +1,81 @@
+# varvamp-hav 1000bp v1.0.0
+
+![Generic badge](https://img.shields.io/badge/STATUS-VALIDATED-green.svg)
+
+> If you use this scheme please cite: https://www.biorxiv.org/content/10.1101/2024.05.08.593102v1.full
+
+## Notes
+
+Pan-specfic primer scheme for HAV designed with varVAMP on the basis of full length genomes. The design utilizes degenerated primers and was validated on clinical samples and isolates.
+
+Homepage: https://github.com/jonas-fuchs/ViralPrimerSchemes/tree/main/varvamp_tiled/HAV
+
+## Metadata
+
+**Target Organisms:**
+- Human hepatitis A virus Hu/Arizona/HAS-15/1979 (Tax ID: 470424)
+
+## Contributors
+
+- Jonas Fuchs <jonas.fuchs@uniklinik-freiburg.de>
+
+## Overviews
+
+<div style="width: 100%;"><img src="assets/primer.svg" style="width: 100%;" alt="Click to see the source"></div>
+
+## Details
+
+```json
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "varvamp-hav",
+    "amplicon_size": 1000,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "varvamp-hav/1000/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "Jonas Fuchs",
+            "primer_scheme_contributor_email": "jonas.fuchs@uniklinik-freiburg.de"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Human hepatitis A virus Hu/Arizona/HAS-15/1979",
+            "primer_scheme_target_organism_ncbi_taxon_id": "470424"
+        }
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "VALIDATED",
+    "primer_scheme_application": [
+        "CLINICAL"
+    ],
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "citation": [
+        "https://www.biorxiv.org/content/10.1101/2024.05.08.593102v1.full"
+    ],
+    "primer_scheme_details": [
+        "Pan-specfic primer scheme for HAV designed with varVAMP on the basis of full length genomes. The design utilizes degenerated primers and was validated on clinical samples and isolates.",
+        "Homepage: https://github.com/jonas-fuchs/ViralPrimerSchemes/tree/main/varvamp_tiled/HAV"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "varvamp",
+        "primer_scheme_generator_version": "0.8.3"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "0fdf6123716f703014fce5ebee7f6d56bf769ecbfacc76a6bd70d67ee77da4c8",
+        "reference_sequence_sha256": "71dbd39f419fa2a13bf489a3131fa036adbd7e9e4d19450b5718e7c2e9038d46"
+    },
+    "primer_scheme_creation_date": "2024-08-30",
+    "primer_scheme_submission_date": "2026-09-01"
+}
+```
+
+
+
+------------------------------------------------------------------------
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)

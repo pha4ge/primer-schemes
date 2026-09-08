@@ -1,0 +1,79 @@
+# hav 400bp v1.0.0
+
+![Generic badge](https://img.shields.io/badge/STATUS-DRAFT-blue.svg)
+
+## Notes
+
+A PrimerScheme for Human hepatitis A virus (HAV)
+
+## Metadata
+
+**Target Organisms:**
+- Human hepatitis A virus (Tax ID: 208726)
+
+## Contributors
+
+- Chris Kent
+- Quick Lab
+
+## Overviews
+
+<div style="width: 100%;"><img src="assets/primer.svg" style="width: 100%;" alt="Click to see the source"></div>
+
+## Details
+
+```json
+{
+    "schema_version": "1.0.0-alpha",
+    "primer_scheme_name": "hav",
+    "amplicon_size": 400,
+    "primer_scheme_version": "v1.0.0",
+    "primer_scheme_identifier": "hav/400/v1.0.0",
+    "primer_scheme_contributor": [
+        {
+            "primer_scheme_contributor_name": "Chris Kent"
+        },
+        {
+            "primer_scheme_contributor_name": "Quick Lab"
+        }
+    ],
+    "primer_scheme_target_organism": [
+        {
+            "primer_scheme_target_organism_name": "Human hepatitis A virus",
+            "primer_scheme_target_organism_ncbi_taxon_id": "208726"
+        }
+    ],
+    "primer_scheme_identifier_alias": [
+        "hepatitis-a-virus"
+    ],
+    "primer_scheme_license": "CC-BY-SA-4.0",
+    "primer_scheme_development_status": "DRAFT",
+    "primer_scheme_application": [
+        "WASTEWATER"
+    ],
+    "primer_scheme_scope": [
+        "WHOLE-GENOME"
+    ],
+    "primer_scheme_details": [
+        "A PrimerScheme for Human hepatitis A virus (HAV)"
+    ],
+    "primer_scheme_generator": {
+        "primer_scheme_generator_name": "primalscheme3",
+        "primer_scheme_generator_version": "1.1.5"
+    },
+    "primer_scheme_checksums": {
+        "primer_scheme_sha256": "4f6776ba079ba63975812b6d6f13afc5490aecd688d0d2f74ec866546d4217fd",
+        "reference_sequence_sha256": "941b0148dcb844490899c6e2a0d7d315057b601c2ab8841e9ad43bef707896ca"
+    },
+    "primer_scheme_creation_date": "2024-04-01",
+    "primer_scheme_submission_date": "2026-09-01"
+}
+```
+
+
+
+------------------------------------------------------------------------
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
