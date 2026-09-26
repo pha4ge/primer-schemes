@@ -11,7 +11,7 @@ The repository includes a top-level machine readable [index](https://github.com/
 A scheme definition has three components:
 
 1.  A reference sequence (e.g. [`reference.fasta`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/reference.fasta))
-2.  A seven column Primal Scheme-like BED file of primer sequences & coordinates (e.g. [`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/primer.bed))
+2.  A seven column Primal Scheme-like BED file of primer sequences & coordinates (e.g. [`primer.bed`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/primer.bed)) that complies with the formatting specified in the [ARTIC primer scheme specification](https://github.com/artic-network/primerscheme-specs/blob/main/pdf/primerscheme.pdf)
 3.  A metadata file in JSON format adhering to a [schema](https://github.com/pha4ge/primaschema/blob/main/src/primaschema/schema/info.yml) (e.g. [`info.json`](https://github.com/pha4ge/primer-schemes/blob/main/schemes/artic-sars-cov-2/400/v4.1.0/info.json))
 
 
